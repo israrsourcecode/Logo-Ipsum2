@@ -1,0 +1,1752 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Albert Sans", sans-serif;
+}
+
+:root {
+    --primary-color: #FFB703;
+    --second-primary-color: #1A535C;
+}
+
+/* Header Start */
+.navbar-main-target {
+    padding: 20px 0;
+}
+
+.navbar-main-target .container img {
+    width: 180px;
+}
+
+.nav-list-main {
+    /* gap: 34px; */
+    margin-right: 40px !important;
+}
+
+.nav-list-main li a {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #8C8C8C;
+}
+
+.get-btn {
+    width: 180px;
+    padding: 15px 20px;
+    background-color: #4ECDC4;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(78, 205, 196, 0.68);
+}
+
+.get-btn a {
+    text-decoration: none;
+    color: #021B1F;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.get-btn a i {
+    margin-left: 10px;
+    background-color: #1A535C;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    padding: 5px 5px;
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.get-btn:hover {
+    background-color: #1A535C;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(26, 83, 92, 0.68);
+    scale: 0.95;
+    transition: all 0.3s ease-in-out;
+}
+
+.get-btn:hover a {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.get-btn:hover a i {
+    background-color: #4ECDC4;
+    color: #021B1F;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Header End */
+
+/* Hero Section Start */
+.hero {
+    background: url("../images/Hero-Section.webp");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    margin: 150px 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.hero-content h5 {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+    color: var(--primary-color);
+}
+
+.hero-content p {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.hero-btns {
+    /* display: flex;
+    gap: 20px; */
+    align-items: center;
+}
+
+.hero-btns .secondary-btn {
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btns .secondary-btn a {
+    text-decoration: none;
+    color: #021B1F;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.hero-btns .secondary-btn a i {
+    margin-left: 10px;
+    background-color: #1A535C;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    padding: 5px 5px;
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btns .secondary-btn:hover {
+    scale: 0.95;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btns .secondary-btn a:hover {
+    background-color: #1A535C;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(78, 205, 196, 0.68);
+}
+
+.hero-btns .secondary-btn a:hover i {
+    background-color: #4ECDC4;
+    color: #021B1F;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btns .common-btn {
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btns .common-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    padding: 14px 36px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    text-align: center;
+    /* box-shadow: 0 4px 15px rgba(78, 205, 196, 0.68);
+    transform: translateY(2px); */
+    transition: all 0.3s ease-in-out;
+
+}
+
+.hero-btns .common-btn:hover {
+    scale: 0.95;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-btns .common-btn a:hover {
+    background-color: #fff;
+    color: #021B1F;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.68);
+}
+
+.hero-form {
+    font-family: "Albert Sans";
+    width: 80%;
+    float: right;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 31%, rgba(255, 255, 255, 0.09) 81%, rgba(255, 255, 255, 0.09) 99%);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px -9px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.hero-form h3 {
+    font-size: 1.5rem;
+    color: #021B1F;
+    font-weight: 600;
+    font-family: "Albert Sans";
+    margin-bottom: 20px;
+}
+
+.hero-form form::placeholder {
+    color: #ADB5BD !important;
+    font-family: "Albert Sans";
+}
+
+.hero-form input,
+.hero-form .form-select,
+.hero-form .form-control {
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #495057;
+    font-family: "Albert Sans";
+    width: 100%;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-form input:focus,
+.hero-form .form-select:focus,
+.hero-form .form-control:focus {
+    border: 1px solid #1A535C;
+    box-shadow: 0 0 5px #4ECDC4;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-form .form-select option:hover {
+    background-color: #1A535C !important;
+    color: #fff;
+}
+
+.hero-form .form-btn {
+    margin-top: 15px;
+}
+
+.hero-form .form-btn .btn-primary {
+    background-color: transparent;
+    color: #fff;
+    /* border: none; */
+    border: 1px solid #fff;
+    border-radius: 35px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(26, 83, 92, 0.42);
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-form .form-btn .btn-primary:hover {
+    background-color: #1A535C;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(26, 83, 92, 0.68);
+    scale: 0.95;
+    border: 1px solid #1A535C;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hero Section End */
+/* //////////////////////////////////
+////// Reviews Section Start ///////
+//////////////////////////////////// */
+.trust-reviews {
+    text-align: center;
+    box-shadow: 0px 3.3734px 6.74679px rgba(0, 0, 0, 0.16);
+
+}
+
+.trust-reviews .container {
+    padding: 40px 0;
+}
+
+.trust-reviews-img {
+    /* text-align: center; */
+    /* margin: 20px 20px; */
+    width: 250px;
+    margin-left: 10px;
+    height: auto;
+
+    /* object-fit: contain; */
+}
+
+/* //////////////////////////////////
+////// Reviews Section End ///////
+//////////////////////////////////// */
+
+/* ///////////////////////////////////////////////
+    ////// Professional Writer Section Start ///////
+    /////////////////////////////////////////////// */
+.professional-writer {
+    margin: 100px 0;
+}
+
+/* Slider Start */
+.professional-slider-box {
+    background: #FFFFFF;
+    padding: 30px 20px;
+    float: left;
+    width: 80%;
+    background: #FFFFFF;
+    border: 1.20366px solid #D0D5E7;
+    box-shadow: 0px 1.69836px 3.56403px rgba(20, 34, 74, 0.03), 0px 4.08281px 8.56523px rgba(20, 34, 74, 0.04), 0px 7.68656px 16.1266px rgba(20, 34, 74, 0.05), 0px 13.7121px 28.7674px rgba(20, 34, 74, 0.05);
+    border-radius: 9.62927px;
+
+}
+
+.professional-slider-heading {
+    border-bottom: 1px solid #E5E7EB;
+    padding-bottom: 5px;
+}
+
+.professional-slider-heading-data {
+    margin-top: 15px;
+    padding: 0 !important;
+}
+
+.professional-slider-heading-data h3 {
+    font-size: 1.5rem;
+    color: #334155;
+    font-weight: 600;
+    font-family: "inter";
+}
+
+.professional-slider-heading-data p {
+    font-size: 1rem;
+    color: #334155;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.complete-order p {
+    margin: 0 !important;
+}
+
+.professional-slider-image {
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.professional-slider-heading-data span {
+    color: #FF6D1B;
+    font-size: 1rem;
+}
+
+
+.professional-slider-skills {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.professional-slider-skills li {
+    background: #E5FFFD;
+    color: #334155;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 12px;
+    width: 100px;
+}
+
+.professional-slider-btn {
+    margin-top: 40px;
+
+}
+
+.professional-slider-btn a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #334155;
+    border: 2px solid #3CACA3;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+    transform: center center;
+
+}
+
+.professional-slider-btn a:hover {
+    background-color: #3CACA3;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(31, 37, 37, 0.388);
+    transform: scale(0.95);
+}
+
+/* Slider End */
+
+.professional-writer-data h2 {
+    font-size: 2.5rem;
+    color: #4B4B4B;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+.professional-writer-data p {
+    font-size: 1rem;
+    color: #4B4B4B;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    /* max-width: 600px; */
+    font-family: "Nunito", sans-serif;
+}
+
+.rofessional-writer-review-box {
+    /* display: flex;
+    gap: 20px; */
+    align-items: center;
+}
+
+.professional-writer-review-text h3 {
+    font-size: 1.5rem;
+    color: #334155;
+    font-weight: 600;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+.professional-writer-review-text p {
+    font-size: 1rem;
+    color: #334155;
+    font-weight: 400;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+.professional-writer-review i {
+    font-size: 2.5rem;
+    color: #FFB703;
+}
+
+/* ///////////////////////////////////////////////
+    ////// Professional Writer Section End ///////////
+    /////////////////////////////////////////////// */
+
+/*////////////////////////////////////////////////
+//////// Assignment Help Section Start ///////////
+///////////////////////////////////////////////*/
+.Assignmenthelp {
+    background: #F0FFFE;
+    padding: 50px 0;
+    padding-bottom: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+
+.Assignmenthelp-header h2 {
+    font-size: 2.4rem;
+    color: #334155;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+
+}
+
+
+
+.Assignmenthelp-header p {
+    font-size: 1rem;
+    color: #334155;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 10px;
+    font-family: "Nunito", sans-serif;
+
+}
+
+.Assignmenthelp-list-box {
+    margin-bottom: 20px;
+}
+
+.Assignmenthelp-list-box i {
+    padding: 5px 15px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-size: 2rem;
+    color: #25AFA5;
+
+}
+
+.Assignmenthelp-list-text h4 {
+    font-size: 1.3rem;
+    color: #4D5057;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+}
+
+.Assignmenthelp-list-text p {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 200;
+    line-height: 1;
+    font-family: "Nunito", sans-serif;
+
+}
+
+
+
+/* .Assignmenthelp-box {
+    background: #FFFFFF;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(31, 37, 37, 0.388);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+} */
+
+/*////////////////////////////////////////////////
+//////// Assignment Help Section End ///////////
+///////////////////////////////////////////////*/
+
+
+/* ///////////////////////////////////////////////
+/////////// Help Service Section Start //////////
+//////////////////////////////////////////////// */
+.Help-Service-Header {
+    margin: 40px 0;
+}
+
+.Help-Service-Header h2 {
+    font-size: 2.4rem;
+    color: #4B4B4B;
+    font-weight: 700;
+    font-family: "Nunito";
+}
+
+.Help-Service-Header p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    line-height: 25px;
+    color: #3E464E;
+}
+
+.discount-pakage {
+    background: #F0FFFE;
+    padding: 25px;
+    box-shadow: -2px -4px 8px rgba(217, 215, 242, 0.15), 2px 4px 8px rgba(217, 215, 242, 0.15);
+    border-radius: 12px;
+    border: 1px solid #E4EFEC;
+    font-family: "Nunito";
+}
+
+.discount-pakage-btn {
+    padding: 15px 25px;
+    background: #1B978E;
+    text-align: center;
+}
+
+.discount-pakage-btn a {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.discount-pakage-center {
+    margin-top: 20px;
+}
+
+.discount-pakage-center-header i {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-family: "Nunito";
+
+}
+
+.discount-pakage-center-header h3 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: "Nunito";
+}
+
+.table td {
+    background-color: transparent !important;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #1E2A36;
+}
+
+.table tr:last-child td {
+    border-bottom: none !important;
+}
+
+
+.table td .table-price {
+    text-decoration: line-through;
+    color: #798A9C;
+}
+
+.table td .table-free {
+    color: #1B978E;
+}
+
+.discount-pakage-center-bottom h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: "Nunito";
+}
+
+.discount-pakage-center-bottom p {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #798A9C;
+    font-family: "Poppins", sans-serif;
+}
+
+.discount-pakage-center-bottom p span {
+    margin-left: 10px;
+    color: #1B978E;
+    font-family: "Poppins", sans-serif;
+}
+
+.discount-pakage-bottom-btn {
+    padding: 8px 20px;
+    background: #1B978E;
+    margin: 36px 20px;
+    border-radius: 12px;
+}
+
+.discount-pakage-bottom-btn a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.discount-pakage-bottom-btn a i {
+    font-size: 1.2rem;
+    font-weight: unset !important;
+    color: #07de64 !important;
+}
+
+/* < !-- Help Service Box Start--> */
+.Help-service-box {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(67, 129, 133, 0.06), 0px 0px 1px rgba(85, 153, 157, 0.25), inset 0px 4px 10px 1px #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.Help-service-box i {
+    background: #FFFFFF;
+    box-shadow: inset 0px -8px 18px -5px #EDE4FF;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    color: #1B978E;
+    margin-bottom: 10px !important;
+}
+
+.Help-service-box h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 22px 0;
+    margin-bottom: 15px;
+    color: #1E2A36;
+    font-family: "Nunito";
+}
+
+.Help-service-box p {
+    font-size: 1rem;
+    line-height: 22px;
+    font-weight: 400;
+    color: #3E464E;
+    font-family: "Nunito";
+}
+
+
+/* < !-- Help Service Box End--> */
+
+/* /////////////////////////////////////////////
+/////////// Help Service Section End //////////
+////////////////////////////////////////////// */
+
+/*/////////////////////////////////////////////
+///////// Assignment Ace Section Start ////////
+////////////////////////////////////////////// */
+.Assignmentace {
+    padding: 60px 0;
+}
+
+.Assignmentace-head h2{
+     font-size: 2.4rem;
+    color: #4B4B4B;
+    font-weight: 700;
+    font-family: "Nunito";
+}
+
+.Assignmentace-benefit h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+}
+
+.Assignmentace-benefit p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.3;
+    font-family: "Nunito", sans-serif;
+    color: #000000;
+}
+
+/*/////////////////////////////////////////////
+///////// Assignment Ace Section End ////////
+////////////////////////////////////////////// */
+
+/*/////////////////////////////////////////////
+///////// Assignment Ace Section End ////////
+////////////////////////////////////////////// */
+.Professional-Editor {
+    background: url("../images/Collaboration-bg.webp");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    padding: 120px 0;
+
+}
+
+.professional-editor-data span {
+    color: var(--primary-color);
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 10px !important;
+}
+
+.professional-editor-data h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+}
+
+.professional-editor-data p {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.3;
+    margin-bottom: 30px !important;
+}
+
+/*/////////////////////////////////////////////
+///////// Assignment Ace Section End ////////
+////////////////////////////////////////////// */
+
+
+/* < !-- //////////////////////////////////////////////
+/////////// Our Essay Writter Section Start //////////
+///////////////////////////////////////////////////// --> */
+.Our-Essay-Writer {
+    background: #F3FFFE;
+    padding: 50px 0;
+
+}
+
+.Our-Essay-Writer-Header {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.Our-Essay-Writer-Header h2 {
+    font-size: 2.4rem;
+    font-family: "Nunito";
+    font-weight: 700;
+    color: #001434;
+}
+
+.Our-Essay-Writer-Header h2 span {
+    font-size: 2.4rem;
+    font-family: "Nunito";
+    font-weight: 700;
+    color: #1B978E;
+}
+
+.Our-Essay-Writer-Header p {
+    color: #2F466B;
+    font-family: "Nunito";
+    margin-top: 8px !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* Our Essay Witter Slider Start */
+.slider-box {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #D6D6D6;
+    box-shadow: 0px 4px 15px rgba(23, 49, 143, 0.06), 0px 0px 1px rgba(49, 89, 227, 0.25), inset 0px 4px 10px 1px #FFFFFF;
+    border-radius: 12px;
+
+}
+
+
+.slider-box-left-side-header img {
+    border-radius: 6px;
+
+}
+
+.slider-box-left-side-header h4 {
+    color: #001434;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-family: "Nunito";
+}
+
+.slider-box-left-side-header i {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.slider-box-left-side-header span {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.slider-box-left-side-header p {
+    margin-top: 5px;
+    color: #001434;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Nunito";
+}
+
+.slider-left-side-performence-box-data {
+    margin-bottom: 15px;
+}
+
+.slider-left-side-performence-box i {
+    color: #07de64;
+    font-size: 1.8rem;
+}
+
+.slider-left-side-performence-box-data p {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Nunito";
+    color: #585F74;
+    margin-bottom: 5px;
+}
+
+.slider-left-side-performence-box-data ul {
+    padding: 0;
+    margin-top: 8px !important;
+}
+
+.slider-left-side-performence-box-data ul li {
+    list-style: none;
+    margin-bottom: 3px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #FFFFFF;
+    border: 1px solid #DFE6F5;
+    box-shadow: 0px 4px 10px rgba(23, 49, 143, 0.05), 0px 0px 1px rgba(23, 49, 143, 0.25);
+    border-radius: 5px;
+    padding: 6px 4px;
+    color: #001434;
+    font-family: "Nunito";
+    text-align: center;
+}
+
+.slider-box-right-side h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #585F74;
+    font-family: "Nunito";
+}
+
+.slider-box-right-side-center-hearder i {
+    color: #07de64;
+    font-family: "Nunito";
+    font-size: 1.8rem;
+}
+
+.slider-box-right-side-center-hearder h3 {
+    margin-bottom: 0px;
+    color: #001434;
+    font-weight: 800;
+    font-family: "Nunito";
+    font-size: 1rem;
+}
+
+.slider-box-right-side-center-hearder p {
+    color: #585F74;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Nunito";
+
+}
+
+.slider-box-right-side-center-hearder-data p {
+    margin: 0 !important;
+    margin-top: 5px !important;
+}
+
+.slider-box-right-side-center p {
+    color: #001434;
+    font-size: 1rem;
+    margin-top: 40px;
+    font-weight: 600;
+    font-family: "Nunito";
+}
+
+.slider-box-btn {
+    margin-top: 60px;
+}
+
+.slider-box-btn a {
+    text-decoration: none;
+    color: #20C276;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: "Nunito";
+    background: #FFFFFF;
+    border: 2px solid #20C276;
+    box-shadow: 0px 4px 10px rgba(23, 49, 143, 0.05), 0px 0px 1px rgba(23, 49, 143, 0.25);
+    border-radius: 12px;
+}
+
+/* Our Essay Witter Slider End */
+
+/* < !-- ////////////////////////////////////////////
+/////////// Our Essay Writter Section End //////////
+/////////////////////////////////////////////////// --> */
+
+/* <!-- ////////////////////////////////////////////
+/////////// Best Assignment Section Start //////////
+/////////////////////////////////////////////////// --> */
+.Best-Assignment {
+    margin: 80px 0;
+}
+
+/*    <!-- Best Assignment Header Start -->  */
+.Best-Assignment-header h2 {
+    color: #4B4B4B;
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: "Nunito";
+}
+
+.Best-Assignment-header p {
+    color: #000000;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+
+
+/* <!-- Best Assignment Header End --> */
+
+
+/* <!-- Best Assignment Box Start --> */
+.Best-Assignment-hr-top,
+.Best-Assignment-hr {
+    height: 4px;
+    background: #1D9187;
+    border: none;
+}
+
+.Best-Assignment-hr-top {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.Best-help-assignment-box {
+    padding: 30px 20px;
+    background: #F3FFFE;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 25px 25px 0px 0px;
+}
+
+.Best-help-assignment-box h3 {
+    font-size: 1rem;
+    color: #4D5057;
+    font-weight: 700;
+    font-family: "inter";
+    margin-bottom: 10px;
+}
+
+.Best-help-assignment-box p {
+    font-size: 0.9rem;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    margin-top: 8px;
+    line-height: 22px;
+}
+
+
+/* <!-- Best Assignment Box End --> */
+
+/* <!-- ////////////////////////////////////////////
+/////////// Best Assignment Section End //////////
+/////////////////////////////////////////////////// --> */
+
+/* <!-- //////////////////////////////////////////
+/////////// Google Review Section Start //////////
+///////////////////////////////////////////////// --> */
+
+/* <!-- Google Review Header Start --> */
+.Google-Review {
+    margin-bottom: 80px;
+}
+
+.Google-review-header h2 {
+    font-size: 2rem;
+    font-family: "Nunito";
+    font-weight: 700;
+    color: #343A40;
+}
+
+.Google-review-header p {
+    font-family: "Nunito";
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 15px;
+    position: relative;
+}
+
+.Google-review-header p::before {
+    content: "";
+    position: absolute;
+    height: 15px;
+    top: 4px;
+    left: -17px;
+    border-radius: 10px;
+    width: 15px;
+    background: #00CB58;
+}
+
+.Google-review-header-para {
+    margin-right: 60px;
+    font-size: 1rem;
+    font-family: "Nunito";
+    font-weight: 400;
+    color: #495057;
+
+}
+
+/* <!-- Google Review Header End */
+
+/* <!-- Google Review Center Start --> */
+.Google-Review .container:nth-child(2) {
+    padding: 20px 25px;
+    background: #F6F6F8;
+    border-radius: 8px;
+
+}
+
+.google-review-rating-btn {
+    float: right;
+}
+
+.google-review-rating-btn a {
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #1B978E;
+    border-radius: 24px;
+
+}
+
+/* <!-- Google Review Center End --> */
+
+
+/* <!-- Google Review Slider Start --> */
+.google-review-slider {
+    background: #F6F6F8;
+    border-radius: 8px;
+    padding: 25px 20px;
+
+    margin-top: 25px;
+
+}
+
+.google-review-slider-header img {
+    border-radius: 50px;
+}
+
+.google-review-slider-header h3 {
+    font-size: 1rem;
+    margin: 0 !important;
+    font-family: "inter";
+    font-weight: 600;
+    color: #111111;
+}
+
+.google-review-slider-header h3 i {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #592B62;
+}
+
+.google-review-slider-header p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #111111;
+    margin: 0 !important;
+    font-family: "inter";
+}
+
+.google-review-icons {
+    margin-top: 10px;
+}
+
+.google-review-icons i {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.google-review-slider p {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "inter";
+    margin-top: 10px;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding-right: 8px;
+}
+
+.google-review-slider-btn a {
+    color: #592B62;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: "inter";
+    font-weight: 400;
+}
+
+/* <!-- Google Review Slider End --> */
+
+
+/* <!-- ////////////////////////////////////////
+/////////// Google Review Section End //////////
+/////////////////////////////////////////////// --> */
+
+/* <!-- ///////////////////////////////////
+/////////// Thesis Section Start //////////
+////////////////////////////////////////// --> */
+
+.Thesis {
+    background: url("../images/Thesis-bg.webp");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+/* <!-- Thesis Header Start --> */
+.Thesis-header {
+    color: #FFFFFF;
+    font-weight: "Nunito";
+}
+
+.Thesis-header h2 {
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.Thesis-header p {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 1rem;
+}
+
+/* <!-- Thesis Header End --> */
+
+/* <!-- Thesis Counter Start --> */
+.Thesis-Counter {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: "Nunito";
+    color: #FFFFFF;
+}
+
+.Thesis-Counter-Counting-data h3 {
+    font-weight: 400;
+    font-size: 2.6rem;
+}
+
+.Thesis-Counter-Counting-data p {
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+/* <!-- Thesis Counter End --> */
+
+/* <!-- ///////////////////////////////////
+/////////// Thesis Section End ////////////
+////////////////////////////////////////// --> */
+
+/* <!-- ////////////////////////////////
+/////////// Ace Section Start //////////
+/////////////////////////////////////// --> */
+.Ace {
+    margin: 80px 0;
+}
+
+/* <!-- Ace Header Start --> */
+.Ace-Header-Heading {
+    font-weight: 700;
+    font-family: "Nunito";
+    font-size: 2.4rem;
+    color: #4B4B4B;
+}
+
+.Ace-Header-para {
+    margin-top: 22px;
+    margin-bottom: 35px;
+    font-size: 1rem;
+    font-family: "Roboto";
+    color: #3E464E;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* <!-- Ace Header End --> */
+
+.Thesis-Center-left h3,
+.Thesis-Center-right h3 {
+    font-family: "Roboto";
+    color: #1E2A36;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin: 20px 0;
+    margin-left: 20px;
+    position: relative;
+}
+
+.Thesis-Center-left h3::before,
+.Thesis-Center-right h3::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    top: 7px;
+    left: -20px;
+    background: #1D9187;
+}
+
+
+.Thesis-Center-left p,
+.Thesis-Center-right p {
+    font-family: "Roboto";
+    color: #3E464E;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.Thesis-Center-header-last {
+    margin: 14px 0;
+}
+
+
+.Thesis-btn {
+    background: #1D9187;
+    text-align: center;
+    padding: 20px 25px;
+}
+
+.Thesis-btn a {
+    font-family: "Poppins";
+    color: #fff;
+    font-weight: 500;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.Thesis-Center-list {
+    margin: 10px 0;
+}
+
+.Thesis-Center-list ul li {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.Thesis-Center-list ul li::marker {
+    font-size: 1.5rem;
+}
+
+.Thesis-Center-right {
+    padding-left: 60px;
+}
+
+.Thesis-Order-Now {
+    margin-bottom: 20px;
+}
+
+/* <!-- /////////////////////////////////
+/////////// Ace Section End ////////////
+/////////////////////////////////////// --> */
+
+/*  <!-- ////////////////////////////////
+/////////// FAQ Section Start //////////
+/////////////////////////////////////// --> */
+.FAQ {
+    margin: 80px 0;
+}
+
+/* <!-- FAQ Header Start --> */
+.FAQ-header {
+    margin-bottom: 40px;
+}
+
+.FAQ-header h2 {
+    font-size: 2.4rem;
+    color: #19242F;
+    font-family: "Nunito";
+    font-weight: 700;
+}
+
+.FAQ-header p {
+    font-size: 1rem;
+    color: #3E464E;
+    font-family: "Nunito";
+    font-weight: 400;
+}
+
+/* <!-- FAQ Header End --> */
+
+/* < !-- FAQ Data Start --> */
+.FAQ-list {
+    border: none;
+    margin: 10px;
+    background: #FFFFFF;
+}
+
+.accordion-button {
+    border: 1px solid #D0D5E7 !important;
+    border-radius: 10px !important;
+}
+
+
+
+.FAQ-Data-main {
+
+    background: rgba(244, 244, 244, 0.2) !important;
+    border-radius: 12px !important;
+    border: 1px solid #F4F4F4;
+
+}
+
+
+/* < !-- FAQ Data End --> */
+
+/* <!-- //////////////////////////////
+////////// FAQ Section End //////////
+//////////////////////////////////// --> */
+
+/*/////////////////////////////////////////
+//////// Footer Section Start /////////////
+/////////////////////////////////////////*/
+footer {
+    background: #1A535C;
+    padding-top: 50px;
+    color: #fff;
+    font-family: "Albert Sans", sans-serif;
+}
+
+.footer-top {
+    padding: 0px 45px !important
+}
+
+.footer-top .row p {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+.footer-bottom {
+    margin-top: 50px;
+}
+
+.footer-bottom h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-bottom p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.footer-bottom h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-bottom .quik-link h4 {
+    color: var(--primary-color);
+}
+
+.footer-bottom .quik-link ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+.footer-bottom .quik-link ul li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom .quik-link ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+.quik-link, .management-box{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.management-box {
+    background: #25AFA5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(31, 37, 37, 0.388);
+}
+
+.management-box:hover {
+    background-color: #1A535C;
+    transition: all 0.3s ease-in-out;
+    scale: 0.95;
+}
+
+.assignment-management-btn {
+    background: #Efff;
+    padding: 8px 12px;
+    width: fit-content;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(31, 37, 37, 0.388);
+}
+
+.assignment-management-btn a {
+    text-decoration: none;
+    color: #021B1F;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.assignment-management-btn a i {
+    margin-right: 5px;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.assignment-management-btn:hover {
+    background-color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+    scale: 0.95;
+}
+
+.assignment-management-btn:hover a {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.management-box-learning-point {
+    /* gap: 10px; */
+    margin: 40px 0;
+}
+
+.learning-management-btn {
+    background: #00CB58;
+    padding: 8px 12px;
+    width: fit-content;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(31, 37, 37, 0.388);
+}
+
+.learning-management-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.learning-management-btn a i {
+    margin-right: 5px;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.learning-management-btn:hover {
+    background-color: #1A535C;
+    transition: all 0.3s ease-in-out;
+    scale: 0.95;
+}
+
+.learning-management-btn:hover a {
+    color: #FFB703;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-form {
+    background: #1c1c1c4f;
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: 1px solid #F5F5F5;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(40, 59, 59, 0.477);
+}
+
+.footer-form:hover {
+    scale: 1.09;
+    box-shadow: 0 6px 20px rgba(40, 59, 59, 0.677);
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-form h4 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Albert Sans";
+    margin-bottom: 20px;
+}
+
+.input-design {
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #495057;
+    font-family: "Albert Sans";
+    width: 100%;
+    outline: none;
+    background: #F5F5F5;
+
+    margin-bottom: 15px;
+}
+
+.input-design:focus {
+    border: 1px solid #FFB703 !important;
+    box-shadow: 0 0 5px #FFB703 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-design i {
+
+    margin-right: 10px;
+    color: #FFB703;
+    background: #CED4DA;
+    padding: 10px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.input-design input,
+.input-design select {
+    background: transparent;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #495057;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.input-design .form-control:focus {
+    color: var(--bs-body-color);
+    background-color: transparent;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.footer-form-btn {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(31, 37, 37, 0.388);
+}
+
+.footer-form-btn a {
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.footer-form-btn:hover {
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    scale: 0.95;
+}
+
+.footer-form-btn:hover a {
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-second-last {
+    background-color: #25AFA5;
+    padding: 15px 0;
+    margin-top: 30px;
+
+}
+
+.footer-second-last-left-side p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+.footer-second-last-left-side p span {
+    font-weight: 900;
+
+}
+
+.footer-second-last-right-side {
+    padding-left: 50px !important;
+}
+
+.footer-second-last-right-side a {
+    text-decoration: none;
+}
+
+.footer-second-last-right-side a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Base icon state: enable transform and smooth transitions */
+.footer-second-last-right-side .icons a {
+    display: inline-block;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Hover: only change color and scale (animation comes from the base rule) */
+.footer-second-last-right-side .icons a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+    transform: scale(1.9);
+}
+
+.footer-last {
+    color: #fff;
+    padding: 15px 0;
+}
+
+.footer-last-left li {
+    list-style: none;
+    align-items: center;
+}
+
+.footer-last-left a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fff;
+    display: inline-block;
+    transform: scale(0.8);
+    transform-origin: center center;
+
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+.footer-last a:hover {
+    color: #FFB703;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    transform: scale(1.1);
+
+}
+
+.footer-last-right p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    margin-right: 40px;
+    font-family: "Inter", sans-serif;
+    float: right;
+}
+
+
+/*/////////////////////////////////////////
+//////// Footer Section End /////////////
+/////////////////////////////////////////*/

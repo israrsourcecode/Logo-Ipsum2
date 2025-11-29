@@ -1,0 +1,90 @@
+@media screen and (max-width: 992px) {
+    .hero-content {
+        margin: 110px 0;
+    }
+
+    .hero-form {
+        width: 100%;
+    }
+
+    .trust-reviews-img {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .professional-slider-box {
+        width: 100%;
+    }
+
+    .Help-Service {
+        margin-bottom: 40px;
+    }
+.whatsapp-chat img{
+    width: 100%;
+}
+    .discount-pakage {
+        margin-bottom: 35px;
+    }
+
+    .Thesis-Center-right {
+        padding-left: 10px;
+    }
+
+    .Thesis-Center-left h3,
+    .Thesis-Center-right h3 {
+        font-size: 1.4rem;
+    }
+
+    .Thesis-btn a {
+        font-size: 1.4rem;
+    }
+
+    /* Footer Start*/
+    .footer-bottom h4 {
+        font-size: 1rem;
+    }
+
+    .footer-bottom h5 {
+        font-size: 0.9rem;
+    }
+
+    .footer-bottom p {
+        font-size: 0.9rem;
+    }
+
+    .learning-management-btn a {
+        font-size: 0.9rem;
+    }
+
+    .assignment-management-btn a {
+        font-size: 0.9rem;
+    }
+
+    .footer-bottom .quik-link ul li a {
+        font-size: 0.9rem;
+    }
+
+    .footer-form h4 {
+        font-size: 1.3rem;
+    }
+
+    .input-design input,
+    .input-design select {
+        font-size: 0.9rem;
+    }
+
+    .input-design {
+        font-size: 0.9rem;
+    }
+
+    .input-design i {
+        padding: 12px 15px;
+    }
+
+    .footer-form-btn a {
+        font-size: 1.2rem;
+    }
+
+    /* Footer End*/
+
+}
