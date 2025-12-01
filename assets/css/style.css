@@ -323,6 +323,20 @@
 }
 
 /* Slider Start */
+
+
+
+/* Header */
+
+.professional-writer {
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
 .professional-slider-box {
     background: #FFFFFF;
     padding: 30px 20px;
@@ -581,10 +595,27 @@
     font-family: "Nunito";
 }
 
+.discount-pakage-top {
+    box-shadow: 0 8px 20px rgba(28, 95, 95, 0.2);
+}
+
 .discount-pakage-btn {
     padding: 15px 25px;
     background: #1B978E;
     text-align: center;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.discount-pakage-btn:hover {
+    background: #fff;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(31, 37, 37, 0.388);
+}
+
+.discount-pakage-btn:hover a {
+    color: #1B978E;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 
 .discount-pakage-btn a {
@@ -592,6 +623,11 @@
     font-size: 1.2rem;
     font-weight: 500;
     text-decoration: none;
+    display: inline-block;
+    transform: scale(1);
+    transform-origin: center center;
+
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .discount-pakage-center {
@@ -657,6 +693,23 @@
     background: #1B978E;
     margin: 36px 20px;
     border-radius: 12px;
+    display: inline-block;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(28, 95, 95, 0.2);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.discount-pakage-bottom-btn:hover {
+    background: #fff;
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 1px solid #1B978E;
+    box-shadow: 0 8px 20px rgba(31, 37, 37, 0.2);
+}
+
+.discount-pakage-bottom-btn:hover a {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    color: #1B978E;
 }
 
 .discount-pakage-bottom-btn a {
@@ -664,9 +717,18 @@
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 600;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+.discount-pakage-bottom-btn:hover i {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    color: #1B978E !important;
 }
 
 .discount-pakage-bottom-btn a i {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+
     font-size: 1.2rem;
     font-weight: unset !important;
     color: #07de64 !important;
@@ -723,8 +785,8 @@
     padding: 60px 0;
 }
 
-.Assignmentace-head h2{
-     font-size: 2.4rem;
+.Assignmentace-head h2 {
+    font-size: 2.4rem;
     color: #4B4B4B;
     font-weight: 700;
     font-family: "Nunito";
@@ -962,7 +1024,21 @@
     border: 2px solid #20C276;
     box-shadow: 0px 4px 10px rgba(23, 49, 143, 0.05), 0px 0px 1px rgba(23, 49, 143, 0.25);
     border-radius: 12px;
+    display: inline-block;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+
+.slider-box-btn:hover a {
+    background: #20C276;
+    color: #FFFFFF;
+    font-weight: 700;
+    box-shadow: 0px 4px 10px rgba(23, 143, 123, 0.05), 0px 0px 1px rgba(40, 159, 131, 0.25);
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+
 
 /* Our Essay Witter Slider End */
 
@@ -1107,8 +1183,22 @@
     padding: 10px 20px;
     background: #1B978E;
     border-radius: 24px;
+    display: inline-block;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(28, 95, 95, 0.2);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 
 }
+
+.google-review-rating-btn a:hover {
+    color: #1B978E;
+    background: #fff;
+    font-weight: 700;
+    transform: scale(0.8);
+    box-shadow: 0 8px 20px rgba(28, 95, 95, 0.2);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
 
 /* <!-- Google Review Center End --> */
 
@@ -1217,7 +1307,7 @@
 .Thesis-Counter {
     margin-top: 20px;
     margin-bottom: 40px;
-    font-weight: "Nunito";
+    font-family: "Nunito";
     color: #FFFFFF;
 }
 
@@ -1305,6 +1395,14 @@
     background: #1D9187;
     text-align: center;
     padding: 20px 25px;
+    box-shadow: 0 8px 20px rgba(28, 95, 95, 0.2);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.Thesis-btn:hover {
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(28, 95, 95, 0.2);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .Thesis-btn a {
@@ -1313,6 +1411,19 @@
     font-weight: 500;
     font-size: 2rem;
     text-decoration: none;
+    transform: scale(1.1);
+display: inline-block;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+.Thesis-btn:hover a {
+    font-weight: 700;
+    color: #1D9187;
+    transform: scale(0.8);
+
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+
 }
 
 .Thesis-Center-list {
@@ -1334,6 +1445,7 @@
 
 .Thesis-Order-Now {
     margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 /* <!-- /////////////////////////////////
@@ -1462,10 +1574,13 @@ footer {
     font-weight: 300;
     transition: all 0.3s ease-in-out;
 }
-.quik-link, .management-box{
+
+.quik-link,
+.management-box {
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
 .management-box {
     background: #25AFA5;
     padding: 20px;

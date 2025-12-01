@@ -1,4 +1,8 @@
 @media screen and (max-width: 992px) {
+    .get-btn {
+        margin-top: 15px;
+    }
+
     .hero-content {
         margin: 110px 0;
     }
@@ -19,9 +23,11 @@
     .Help-Service {
         margin-bottom: 40px;
     }
-.whatsapp-chat img{
-    width: 100%;
-}
+
+    .whatsapp-chat img {
+        width: 100%;
+    }
+
     .discount-pakage {
         margin-bottom: 35px;
     }
@@ -86,5 +92,412 @@
     }
 
     /* Footer End*/
+
+}
+
+@media screen and (max-width: 767px) {
+    section {
+        overflow: hidden;
+    }
+
+    .hero-content {
+        margin: 110px 0;
+        text-align: center;
+    }
+
+    .hero-btns {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-form {
+        text-align: center;
+    }
+    .professional-writer-data{
+        margin-top: 10px !important;
+        text-align: center;
+    }
+   
+    .professional-writer-review{
+        justify-content: center;
+    }
+
+    .Help-service-box {
+        text-align: center;
+    }
+
+    .Best-help-assignment-box-1 {
+        margin-bottom: 20px;
+        border-radius: 25px;
+
+    }
+
+    .hero-content h5 {
+        font-size: 1rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.4rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+
+    .hero-form {
+        text-align: center;
+    }
+
+    .professional-slider-box {
+        margin-bottom: 40px;
+    }
+
+    .professional-slider-heading-data h3 {
+        font-size: 1.3rem;
+    }
+
+    .professional-slider-heading-data p {
+        font-size: 0.9rem;
+    }
+
+    .professional-slider-heading-data span {
+        font-size: 0.9rem;
+    }
+
+    .complete-order p {
+        font-size: 0.9rem;
+    }
+
+    .professional-writer-data h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .professional-writer-data p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .professional-writer-review {
+        text-align: center;
+        align-items: center;
+    }
+
+    .professional-writer-review-text h3 {
+        font-size: 1.3rem;
+
+    }
+
+    .professional-writer-review i {
+        font-size: 2rem;
+    }
+
+    .Assignmenthelp-header h2 {
+        font-size: 2rem;
+    }
+
+    .Assignmenthelp-header p {
+        font-size: 0.9rem;
+    }
+
+    .Assignmenthelp-list-box i {
+        font-size: 1.5rem;
+    }
+
+    .Assignmenthelp-list-text h4 {
+        font-size: 1.1rem;
+    }
+
+    .Assignmenthelp-list-text p {
+        font-size: 0.9rem;
+    }
+
+    .Assignmentace-head h2 {
+        font-size: 2rem;
+    }
+
+    e.Assignmentace-head p {
+        font-size: 0.9rem;
+    }
+
+    .Assignmentace-benefit h3 {
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+
+    .professional-editor-data h2 {
+        font-size: 2rem;
+    }
+
+    .professional-editor-data p {
+        font-size: 0.9rem;
+    }
+
+    .Help-Service-Header h2 {
+        font-size: 2rem;
+    }
+
+    .Help-Service-Header p {
+        font-size: 1rem;
+    }
+
+    .discount-pakage-btn a {
+        font-size: 1.1rem;
+    }
+
+    .discount-pakage-center {
+        margin-top: 10px;
+    }
+
+    .discount-pakage-center-header h3 {
+        font-size: 1.2rem;
+    }
+
+    .discount-pakage-center-bottom h4 {
+        font-size: 1.1rem;
+    }
+
+    .discount-pakage-center-bottom p {
+        font-size: 1.1rem;
+    }
+
+    .discount-pakage-bottom-btn a {
+        font-size: 1.1rem;
+    }
+
+    .Help-service-box i {
+        padding: 10px 15px;
+    }
+
+    .Help-service-box h3 {
+        font-size: 1.3rem;
+    }
+
+    .Help-service-box p {
+        font-size: 0.9rem;
+    }
+
+    .Our-Essay-Writer-Header h2 {
+        font-size: 2rem;
+    }
+
+    .Our-Essay-Writer-Header p {
+        font-size: 0.9rem;
+    }
+
+    .slider-box-right-side h3 {
+        font-size: 1rem;
+    }
+
+    .slider-box-left-side-header h4 {
+        font-size: 1.2rem;
+    }
+
+    .slider-box-left-side-header i {
+        font-size: 1rem;
+    }
+
+    .slider-box-left-side-header span {
+        font-size: 0.9rem;
+    }
+
+    .slider-box-left-side-header p {
+        font-size: 0.9rem;
+    }
+
+    .slider-left-side-performence-box i {
+        font-size: 1.5rem;
+    }
+
+    .slider-left-side-performence-box-data p {
+        font-size: 0.9rem;
+    }
+
+    .slider-left-side-performence-box-data h5 {
+        font-size: 0.9rem;
+    }
+
+    .slider-left-side-performence-box-data ul li {
+        font-size: 0.9rem;
+    }
+
+    .slider-box-right-side-center-hearder h3 {
+        font-size: 0.9rem;
+    }
+
+    .slider-box-right-side-center p {
+        font-size: 0.9rem;
+    }
+
+    .slider-box-right-side-center-hearder i {
+        font-size: 1.6rem;
+    }
+
+    .slider-box-right-side-center p {
+        font-size: 0.89rem;
+    }
+
+    .slider-box-btn a {
+        font-size: 1rem;
+    }
+
+    .Best-Assignment-header h2 {
+        font-size: 2rem;
+    }
+
+    .Best-Assignment-header p {
+        font-size: 0.9rem;
+    }
+
+    .Google-Review {
+        padding: 0 20px;
+    }
+
+    .Google-review-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .Google-review-header-para {
+        font-size: 0.9rem;
+    }
+
+    .google-review-rating-btn a {
+        font-size: 0.9rem;
+    }
+
+    .google-review-slider p {
+        font-size: 0.9rem;
+    }
+
+    .Thesis-header h2 {
+        font-size: 2rem;
+    }
+
+    .Thesis-header p {
+        font-size: 0.9rem;
+    }
+
+    .Thesis-Counter-Counting-data h3 {
+        font-size: 2.2rem;
+    }
+
+    .Thesis-Counter-Counting-data p {
+        font-size: 1rem;
+    }
+
+
+    .Ace-Header-Heading {
+        font-size: 2rem;
+    }
+
+    .Ace-Header-para {
+        font-size: 0.9rem;
+    }
+
+    .Thesis-Center-left h3,
+    .Thesis-Center-right h3 {
+        font-size: 1.2rem;
+    }
+
+    .Thesis-Center-left p,
+    .Thesis-Center-right p {
+        font-size: 0.9rem;
+    }
+
+    .Thesis-Center-list ul li {
+        font-size: 1rem;
+    }
+
+    .FAQ-header h2 {
+        font-size: 2rem;
+    }
+
+    .FAQ-header p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .slider-box-left-side-header h4 {
+        margin-bottom: 0px;
+    }
+
+    .slider-box-left-side-header p {
+        margin-top: 0px;
+
+    }
+
+    .slider-box-left-side-header {
+        margin-bottom: 10px;
+    }
+
+    .slider-left-side-performence-box-data ul li {
+        display: inline-block;
+    }
+
+    .slider-left-side-performence-box-data {
+        margin-bottom: 0px;
+    }
+
+    .slider-box-right-side-center p {
+        margin-top: 16px !important;
+    }
+
+    .slider-box-btn {
+        margin-top: 24px !important;
+    }
+
+    .slider-box-btn a {
+        width: 90%;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .footer-bottom {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .quik-link,
+    .management-box {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:399px) {
+    .hero-btns {
+        margin-top: 50px;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px !important;
+    }
+
+
+    .common-btn a {
+        font-size: 1.2rem;
+        padding: 14px 40px !important;
+    }
+
+    .Assignmenthelp-list-box i {
+        padding: 8px 14px;
+    }
+
+
+
+    .Google-review-rating {
+        text-align: center;
+
+    }
+
+    .google-review-rating-btn {
+        margin-top: 20px;
+        float: none;
+    }
+
+    .footer-top .row {
+        gap: 20px;
+    }
+
 
 }
