@@ -95,3 +95,111 @@ var swiper = new Swiper(".mySwiper2", {
     }
 });
 
+
+////////////////////////////////
+//// Top Review Slider /////
+//////////////////////////////
+var swiper = new Swiper(".Top-rating", {
+    slidesPerView: 3,
+    centeredSlides: true,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+    },
+    breakpoints: {
+        // small phones
+        320: {
+            slidesPerView: 1,
+            centeredSlides: false,
+            spaceBetween: 8
+        },
+        // large phones / small tablets
+        640: {
+            slidesPerView: 1,
+            centeredSlides: false,
+            spaceBetween: 18
+        },
+        // tablets / small laptops
+        768: {
+            slidesPerView: 2,
+            centeredSlides: false,
+            spaceBetween: 7
+        },
+        // desktops
+        1024: {
+            slidesPerView: 3,
+            centeredSlides: true,
+            spaceBetween: 20
+        },
+        // large desktops
+        1440: {
+            slidesPerView: 3,
+            centeredSlides: true,
+            spaceBetween: 10
+        }
+    }
+});
+
+
+
+
+
+
+
+
+//////////////////////////////
+//// Sample Work Slider /////
+////////////////////////////
+var swiper = new Swiper(".Sample-work", {
+    slidesPerView: 3,
+    centeredSlides: true,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+    },
+    breakpoints: {
+        // small phones
+        320: {
+            slidesPerView: 1,
+            centeredSlides: false,
+            spaceBetween: 8
+        },
+        // large phones / small tablets
+        640: {
+            slidesPerView: 1,
+            centeredSlides: false,
+            spaceBetween: 18
+        },
+        // tablets / small laptops
+        768: {
+            slidesPerView: 2,
+            centeredSlides: false,
+            spaceBetween: 7
+        },
+        // desktops
+        1024: {
+            slidesPerView: 3,
+            centeredSlides: true,
+            spaceBetween: 20
+        },
+        // large desktops
+        1440: {
+            slidesPerView: 3,
+            centeredSlides: true,
+            spaceBetween: 10
+        }
+    }
+});
+

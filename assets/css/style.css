@@ -22,13 +22,13 @@
 }
 
 .nav-list-main {
-    /* gap: 34px; */
+    gap: 15px;
     margin-right: 40px !important;
 }
 
 .nav-list-main li a {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #8C8C8C;
 }
 
@@ -1412,7 +1412,7 @@
     font-size: 2rem;
     text-decoration: none;
     transform: scale(1.1);
-display: inline-block;
+    display: inline-block;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 
 }

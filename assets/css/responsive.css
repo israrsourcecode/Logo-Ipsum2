@@ -1,4 +1,23 @@
+@media (max-width: 1200px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+
+    .navbar-expand-lg .navbar-toggler {
+        display: block !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-expand-lg .navbar-collapse.show {
+        display: block !important;
+    }
+}
+
+
 @media screen and (max-width: 992px) {
+
+    /* Hero Section Start */
     .get-btn {
         margin-top: 15px;
     }
@@ -10,6 +29,8 @@
     .hero-form {
         width: 100%;
     }
+
+    /* Hero Section End */
 
     .trust-reviews-img {
         margin-top: 5px;
@@ -44,6 +65,33 @@
     .Thesis-btn a {
         font-size: 1.4rem;
     }
+
+    /* Service Pages Start */
+    .top-rating-slide-center {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .top-rating-bottom {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .top-rating-bottom-btn {
+        margin-top: 20px;
+        float: unset;
+    }
+    .smaple-work{
+        text-align: center;
+    }
+    .smaple-work-categories{
+        justify-content: center;
+    }
+    .smaple-work-primary-btn a, .smaple-work-secondary-btn a {
+        width: 100% !important;
+}
+    /* Service Pages End */
 
     /* Footer Start*/
     .footer-bottom h4 {
@@ -113,12 +161,13 @@
     .hero-form {
         text-align: center;
     }
-    .professional-writer-data{
+
+    .professional-writer-data {
         margin-top: 10px !important;
         text-align: center;
     }
-   
-    .professional-writer-review{
+
+    .professional-writer-review {
         justify-content: center;
     }
 
@@ -494,6 +543,12 @@
         margin-top: 20px;
         float: none;
     }
+/* Service Page Start */
+.top-rating-slide-center span {
+    display: inline-block;
+    margin-top: 10px;
+}
+/* Service Page Start */
 
     .footer-top .row {
         gap: 20px;
