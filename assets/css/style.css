@@ -1526,8 +1526,439 @@
 
 }
 
-
 /* < !-- FAQ Data End --> */
+
+
+/* TOP RATE START */
+.top-rated {
+    margin: 80px 0;
+}
+
+.top-rate-header {
+    margin-bottom: 50px;
+}
+
+.top-rate-header h2 {
+    font-size: 2.4rem;
+    color: #37352F;
+    font-weight: 700;
+    font-family: "Nunito";
+}
+
+.top-rate-header p {
+    color: #37352F;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.top-rate-slide {
+    background: #F4F6FB;
+    border-radius: 12px;
+    padding: 16px 26px;
+    font-family: "Roboto";
+}
+
+.top-rate-slide h5 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.top-rating-slide-rating {
+    float: right;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-right: 19px !important;
+    font-family: "Roboto";
+}
+
+.top-rating-slide-rating i {
+    color: #379D96;
+}
+
+.top-rating-slide-review {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #37352F;
+    font-family: "Roboto";
+
+}
+
+.top-rating-slide-review i {
+    color: #379D96;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.top-rating-slide-center {
+    margin: 20px 0;
+}
+
+.top-rating-slide-center span {
+    padding: 5px 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: "Roboto";
+    color: #37352F;
+}
+
+.top-rating-bottom {
+    margin-top: 10px;
+
+}
+
+.top-rating-bottom-order p {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.top-rating-bottom-order p span {
+    font-weight: 900;
+    margin-right: 8px;
+}
+
+.top-rating-bottom-btn {
+    float: right;
+}
+
+.top-rating-bottom-btn a {
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #379D96;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 6px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(143, 216, 212, 0.352);
+}
+
+.top-rating-bottom-btn a:hover {
+    background: #FFFFFF;
+    color: #379D96;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(96, 113, 112, 0.114);
+
+}
+
+/* TOP RATE END */
+
+
+/* <!-- IT WORK SECTION START --> */
+.It-work {
+    background: url("/assets/images/it-work.webp");
+    font-family: "Roboto";
+    background: cover;
+    object-fit: cover !important;
+    background-repeat: no-repeat; 
+    padding: 50px 20px;
+}
+
+.It-work-data h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.It-work-data-box ,
+.It-work-data-common-box{
+    cursor: pointer;
+}
+.It-work-data-box {
+    padding: 26px 20px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.It-work-data-common-box h3{
+    font-family: "Roboto";
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+.It-work-data-box h3 {
+    font-family: "Roboto";
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #37352F;
+}
+.It-work-data-common-box p{
+ font-family: "Roboto";
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFF;
+    margin-top: 15px;
+}
+.It-work-data-common-box .It-work-data-btn{
+    display: none;
+}
+
+.It-work-data-box p {
+    font-family: "Roboto";
+    font-size: 1rem;
+    font-weight: 400;
+    color: #37352F;
+    margin-top: 15px;
+}
+
+.It-work-data-box .It-work-data-btn a {
+    text-decoration: none;
+    color: #000000;
+    background: #4ECDC4;
+    border-radius: 55.5473px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 8px 12px;
+    margin-top: 10px;
+    margin-left: 4px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(78, 205, 196, 0.68);
+    transform: scale(1.1);
+    display: inline-block;
+}
+
+.It-work-data-box .It-work-data-btn a:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.8);
+
+    color: #fff;
+    background: #1A535C;
+    box-shadow: 0 4px 15px rgba(44, 117, 112, 0.68);
+}
+
+.It-work-data-box .It-work-data-btn a i {
+    color: #fff;
+    padding: 4px;
+    margin-left: 5px;
+    font-size: 0.9rem;
+    background: #1A535C;
+    border-radius: 31.7413px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.It-work-data-box .It-work-data-btn a:hover i {
+    padding: 4px;
+    font-size: 0.7rem;
+    color: #000000;
+    background: #4ECDC4;
+    border-radius: 31.7413px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.It-work-bottom-box {
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+}
+
+.It-work-bottom-box i {
+    font-size: 1.8rem;
+    padding: 2px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #00C471;
+    margin-left: 15px;
+
+}
+
+.It-work-bottom-box-data {
+    font-family: "Roboto";
+    color: #fff;
+}
+
+.It-work-bottom-box-data h4 {
+    font-family: "Roboto";
+    margin: 6px 0;
+    color: #fff;
+}
+
+.It-work-bottom-box-data p {
+    font-family: "Roboto";
+    margin: 6px 0;
+    color: #fff;
+}
+
+/* <!-- IT WORK SECTION END --> */
+
+
+/* Sample Work Start */
+.sample-work {
+    padding: 80px 0;
+}
+
+.sample-work-heading h2 {
+    font-size: 2.4rem;
+    font-family: "Nunito";
+    font-weight: 700;
+    color: #37352F;
+    margin-bottom: 70px;
+}
+
+.smaple-work {
+    background: #F4F6FB;
+    border-radius: 16px;
+    padding: 25px 20px;
+}
+
+.smaple-work h3 {
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.smaple-work-category {
+    background: #FFFFFF;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.smaple-work-category p {
+    /* padding: 6px 10px; */
+    font-size: 1rem;
+    margin: 0;
+    margin-left: 8px;
+}
+
+.smaple-work-category i {
+    color: #1B978E;
+}
+
+.smaple-work-primary-btn, .smaple-work-secondary-btn {
+    margin-top: 20px;
+}
+
+.smaple-work-secondary-btn a {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 1rem;
+    border: 2px solid #1B978E;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: #1B978E;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    transform: scale(1.0);
+    box-shadow: 0 4px 15px rgba(113, 236, 228, 0.404);
+}
+
+.smaple-work-secondary-btn a:hover {
+    transition: all 0.3s ease-in-out;
+    background: #1B978E;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: #fff;
+    transform: scale(0.8);
+    box-shadow: 0 4px 15px rgba(52, 142, 136, 0.361);
+
+}
+
+.smaple-work-primary-btn a {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 1rem;
+    border: 2px solid #1B978E;
+    background: #1B978E;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    transform: scale(1.0);
+    box-shadow: 0 4px 15px rgba(52, 142, 136, 0.361);
+}
+
+.smaple-work-primary-btn a:hover {
+
+    border: 2px solid #1B978E;
+    background: transparent;
+    color: #1B978E;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    transform: scale(0.8);
+    box-shadow: 0 4px 15px rgba(113, 236, 228, 0.404);
+
+}
+
+/* Sample Work End */
+
+
+/* TOP NOTCH START */
+.Top-Notch{
+    margin: 80px 0;
+}
+.Top-Notch-data h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Roboto";
+}
+.Top-Notch-data p{
+    font-family: "Roboto";
+    font-size: 1rem;
+    color: #37352F;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.Top-Notch-data a{
+    font-family: "Roboto";
+    font-size: 1rem;
+    text-decoration: none;
+    color: #00C471;
+    font-weight: 400;
+}
+.Top-Notch-data h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: "Roboto";
+}
+/* Table Start */
+.table-top-notch{
+    width: 100%;
+    margin: 20px 0;
+}
+.table-top-notch tbody tr{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+}
+.table-top-notch tbody tr td{
+    width: 50% !important;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #37352F;
+    padding: 5px 0;
+    font-size: 1rem;
+}
+
+.table-top-notch tbody tr:nth-child(2n) {
+    background: #00c4722b;
+}
+
+
+/* TOP NOTCH END */
+
+
+
 
 /* <!-- //////////////////////////////
 ////////// FAQ Section End //////////
@@ -1893,3 +2324,30 @@ footer {
 /*/////////////////////////////////////////
 //////// Footer Section End /////////////
 /////////////////////////////////////////*/
+
+
+
+
+.webkit {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+}
+
+.webkit_1 {
+    -webkit-line-clamp: 1;
+}
+
+.webkit_2 {
+    -webkit-line-clamp: 2;
+}
+
+.webkit_3 {
+    -webkit-line-clamp: 3;
+}
+
+.webkit_4 {
+    -webkit-line-clamp: 4;
+}
