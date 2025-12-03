@@ -82,15 +82,33 @@
         margin-top: 20px;
         float: unset;
     }
-    .smaple-work{
+
+    .smaple-work {
         text-align: center;
     }
-    .smaple-work-categories{
+
+    .smaple-work-categories {
         justify-content: center;
     }
+
     .smaple-work-primary-btn a, .smaple-work-secondary-btn a {
         width: 100% !important;
-}
+    }
+
+    .It-work .container .row {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .It-work-data {
+        text-align: center;
+    }
+
+    .It-work-data-box {
+        text-align: center;
+    }
+
     /* Service Pages End */
 
     /* Footer Start*/
@@ -175,10 +193,14 @@
         text-align: center;
     }
 
+    .row:has(.Best-help-assignment-box) {
+        /* CSS properties for the parent */
+        align-items: center !important;
+    }
+
     .Best-help-assignment-box-1 {
         margin-bottom: 20px;
         border-radius: 25px;
-
     }
 
     .hero-content h5 {
@@ -265,7 +287,7 @@
         font-size: 2rem;
     }
 
-    e.Assignmentace-head p {
+    .Assignmentace-head p {
         font-size: 0.9rem;
     }
 
@@ -464,6 +486,29 @@
     .FAQ-header p {
         font-size: 0.9rem;
     }
+
+
+    /* Services page start */
+    .It-work-data-box .It-work-data-btn a {
+    margin-left: 0px;
+}
+
+    .It-work-bottom-box .row {
+        text-align: center;
+        align-items: center;
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .It-work-bottom-box i {
+        margin-left: 0;
+    }
+    .Top-Notch-data{
+        text-align: center;
+    }
+
+    /* Services page end */
+
 }
 
 @media screen and (max-width:500px) {
@@ -501,6 +546,7 @@
         text-align: center;
         margin-left: 10px;
     }
+
 
     .footer-bottom {
         padding-left: 25px;
@@ -543,12 +589,21 @@
         margin-top: 20px;
         float: none;
     }
-/* Service Page Start */
-.top-rating-slide-center span {
-    display: inline-block;
-    margin-top: 10px;
+
+    /* Service Page Start */
+    .top-rating-slide-center span {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .It-work-bottom-box-data h4 {
+        font-size: 1rem;
+    }
+    .It-work-bottom-box-data p {
+    font-size: 0.8rem;
 }
-/* Service Page Start */
+
+    /* Service Page End*/
 
     .footer-top .row {
         gap: 20px;

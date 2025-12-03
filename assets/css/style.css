@@ -1074,6 +1074,7 @@
 
 
 /* <!-- Best Assignment Box Start --> */
+
 .Best-Assignment-hr-top,
 .Best-Assignment-hr {
     height: 4px;
@@ -1091,6 +1092,10 @@
     background: #F3FFFE;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
     border-radius: 25px 25px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 .Best-help-assignment-box h3 {
@@ -1204,12 +1209,29 @@
 
 
 /* <!-- Google Review Slider Start --> */
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.google-review-slider-wrapper {
+    align-items: stretch;
+    height: 100%;
+}
+
 .google-review-slider {
     background: #F6F6F8;
     border-radius: 8px;
     padding: 25px 20px;
-
     margin-top: 25px;
+
+
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* optional: space content nicely */
+    height: 100%;
 
 }
 
@@ -1332,6 +1354,7 @@
 /////////////////////////////////////// --> */
 .Ace {
     margin: 80px 0;
+    margin-bottom: 0;
 }
 
 /* <!-- Ace Header Start --> */
@@ -1350,6 +1373,7 @@
     color: #3E464E;
     font-weight: 400;
     line-height: 24px;
+    margin-bottom: 0 !important;
 }
 
 /* <!-- Ace Header End --> */
@@ -1509,6 +1533,7 @@
 ////////// FAQ Section End //////////
 //////////////////////////////////// --> */
 
+
 /*/////////////////////////////////////////
 //////// Footer Section Start /////////////
 /////////////////////////////////////////*/
@@ -1579,12 +1604,15 @@ footer {
 .management-box {
     margin-right: 10px;
     margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+
 }
 
 .management-box {
     background: #25AFA5;
     padding: 20px;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
     box-shadow: 0 4px 12px rgba(31, 37, 37, 0.388);
 }
 

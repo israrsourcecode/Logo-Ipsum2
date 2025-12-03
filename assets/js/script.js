@@ -88,7 +88,7 @@ var swiper = new Swiper(".mySwiper2", {
         },
         // large desktops
         1440: {
-            slidesPerView: 5,
+            slidesPerView: 4,
             centeredSlides: true,
             spaceBetween: 24
         }
@@ -203,3 +203,19 @@ var swiper = new Swiper(".Sample-work", {
     }
 });
 
+
+//IT WORK DATA BOX
+function itWorkBox(el) {
+    // Get all boxes (both active and common)
+    const boxes = document.querySelectorAll('.It-work-data-box, .It-work-data-common-box');
+
+    boxes.forEach(box => {
+        // Remove active class from all boxes
+        box.classList.remove('It-work-data-box');
+        box.classList.add('It-work-data-common-box');
+    });
+
+    // Add active class to clicked box
+    el.classList.remove('It-work-data-common-box');
+    el.classList.add('It-work-data-box');
+}

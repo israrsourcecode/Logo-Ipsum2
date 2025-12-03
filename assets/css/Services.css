@@ -438,9 +438,9 @@
 .It-work {
     background: url("/assets/images/it-work.webp");
     font-family: "Roboto";
-    /* background: cover;
-    object-fit: contain;
-    background-repeat: no-repeat; */
+    background: cover;
+    object-fit: cover !important;
+    background-repeat: no-repeat; 
     padding: 50px 20px;
 }
 
@@ -451,17 +451,40 @@
     margin-bottom: 40px;
 }
 
+.It-work-data-box ,
+.It-work-data-common-box{
+    cursor: pointer;
+}
 .It-work-data-box {
     padding: 26px 20px;
     background: #FFFFFF;
     border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 
+.It-work-data-common-box h3{
+    font-family: "Roboto";
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
 .It-work-data-box h3 {
     font-family: "Roboto";
     font-size: 1.8rem;
     font-weight: 700;
     color: #37352F;
+}
+.It-work-data-common-box p{
+ font-family: "Roboto";
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFF;
+    margin-top: 15px;
+}
+.It-work-data-common-box .It-work-data-btn{
+    display: none;
 }
 
 .It-work-data-box p {
@@ -472,7 +495,7 @@
     margin-top: 15px;
 }
 
-.It-work-data-btn a {
+.It-work-data-box .It-work-data-btn a {
     text-decoration: none;
     color: #000000;
     background: #4ECDC4;
@@ -488,7 +511,7 @@
     display: inline-block;
 }
 
-.It-work-data-btn a:hover {
+.It-work-data-box .It-work-data-btn a:hover {
     transition: all 0.3s ease-in-out;
     transform: scale(0.8);
 
@@ -497,7 +520,7 @@
     box-shadow: 0 4px 15px rgba(44, 117, 112, 0.68);
 }
 
-.It-work-data-btn a i {
+.It-work-data-box .It-work-data-btn a i {
     color: #fff;
     padding: 4px;
     margin-left: 5px;
@@ -508,7 +531,7 @@
 
 }
 
-.It-work-data-btn a:hover i {
+.It-work-data-box .It-work-data-btn a:hover i {
     padding: 4px;
     font-size: 0.7rem;
     color: #000000;
@@ -517,26 +540,10 @@
     transition: all 0.3s ease-in-out;
 }
 
-.It-work-list {
-    font-family: "Roboto";
-    color: #fff;
-    margin: 20px;
-    margin-top: 40px;
-}
 
-.It-work-list h3 {
-    font-family: "Roboto";
-    font-size: 1.8rem;
-    font-weight: 600;
-}
-
-.It-work-list p {
-    font-size: 1rem;
-    margin-bottom: 30px;
-    font-weight: 400;
-}
 
 .It-work-bottom-box {
+    margin-top: 25px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
 }
@@ -571,16 +578,18 @@
 /* <!-- IT WORK SECTION END --> */
 
 /* Sample Work Start */
-.sample-work{
+.sample-work {
     padding: 80px 0;
 }
-.sample-work-heading h2{
+
+.sample-work-heading h2 {
     font-size: 2.4rem;
     font-family: "Nunito";
     font-weight: 700;
     color: #37352F;
     margin-bottom: 70px;
 }
+
 .smaple-work {
     background: #F4F6FB;
     border-radius: 16px;
@@ -659,7 +668,7 @@
 }
 
 .smaple-work-primary-btn a:hover {
- 
+
     border: 2px solid #1B978E;
     background: transparent;
     color: #1B978E;
@@ -671,6 +680,507 @@
 }
 
 /* Sample Work End */
+
+/* OUR ESSAY WRITING START */
+.Our-Essay-Writer {
+    background: #F3FFFE;
+    padding: 50px 0;
+
+}
+
+.Our-Essay-Writer-Header {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.Our-Essay-Writer-Header h2 {
+    font-size: 2.4rem;
+    font-family: "Nunito";
+    font-weight: 700;
+    color: #001434;
+}
+
+.Our-Essay-Writer-Header h2 span {
+    font-size: 2.4rem;
+    font-family: "Nunito";
+    font-weight: 700;
+    color: #1B978E;
+}
+
+.Our-Essay-Writer-Header p {
+    color: #2F466B;
+    font-family: "Nunito";
+    margin-top: 8px !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* Our Essay Witter Slider Start */
+.slider-box {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #D6D6D6;
+    box-shadow: 0px 4px 15px rgba(23, 49, 143, 0.06), 0px 0px 1px rgba(49, 89, 227, 0.25), inset 0px 4px 10px 1px #FFFFFF;
+    border-radius: 12px;
+
+}
+
+
+.slider-box-left-side-header img {
+    border-radius: 6px;
+
+}
+
+.slider-box-left-side-header h4 {
+    color: #001434;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-family: "Nunito";
+}
+
+.slider-box-left-side-header i {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.slider-box-left-side-header span {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.slider-box-left-side-header p {
+    margin-top: 5px;
+    color: #001434;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Nunito";
+}
+
+.slider-left-side-performence-box-data {
+    margin-bottom: 15px;
+}
+
+.slider-left-side-performence-box i {
+    color: #07de64;
+    font-size: 1.8rem;
+}
+
+.slider-left-side-performence-box-data p {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Nunito";
+    color: #585F74;
+    margin-bottom: 5px;
+}
+
+.slider-left-side-performence-box-data ul {
+    padding: 0;
+    margin-top: 8px !important;
+}
+
+.slider-left-side-performence-box-data ul li {
+    list-style: none;
+    margin-bottom: 3px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #FFFFFF;
+    border: 1px solid #DFE6F5;
+    box-shadow: 0px 4px 10px rgba(23, 49, 143, 0.05), 0px 0px 1px rgba(23, 49, 143, 0.25);
+    border-radius: 5px;
+    padding: 6px 4px;
+    color: #001434;
+    font-family: "Nunito";
+    text-align: center;
+}
+
+.slider-box-right-side h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #585F74;
+    font-family: "Nunito";
+}
+
+.slider-box-right-side-center-hearder i {
+    color: #07de64;
+    font-family: "Nunito";
+    font-size: 1.8rem;
+}
+
+.slider-box-right-side-center-hearder h3 {
+    margin-bottom: 0px;
+    color: #001434;
+    font-weight: 800;
+    font-family: "Nunito";
+    font-size: 1rem;
+}
+
+.slider-box-right-side-center-hearder p {
+    color: #585F74;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Nunito";
+
+}
+
+.slider-box-right-side-center-hearder-data p {
+    margin: 0 !important;
+    margin-top: 5px !important;
+}
+
+.slider-box-right-side-center p {
+    color: #001434;
+    font-size: 1rem;
+    margin-top: 40px;
+    font-weight: 600;
+    font-family: "Nunito";
+}
+
+.slider-box-btn {
+    margin-top: 60px;
+}
+
+.slider-box-btn a {
+    text-decoration: none;
+    color: #20C276;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: "Nunito";
+    background: #FFFFFF;
+    border: 2px solid #20C276;
+    box-shadow: 0px 4px 10px rgba(23, 49, 143, 0.05), 0px 0px 1px rgba(23, 49, 143, 0.25);
+    border-radius: 12px;
+    display: inline-block;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.slider-box-btn:hover a {
+    background: #20C276;
+    color: #FFFFFF;
+    font-weight: 700;
+    box-shadow: 0px 4px 10px rgba(23, 143, 123, 0.05), 0px 0px 1px rgba(40, 159, 131, 0.25);
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Our Essay Witter Slider End */
+/* OUR ESSAY WRITING END */
+
+/* TOP NOTCH START */
+.Top-Notch{
+    margin: 80px 0;
+}
+.Top-Notch-data h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Roboto";
+}
+.Top-Notch-data p{
+    font-family: "Roboto";
+    font-size: 1rem;
+    color: #37352F;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.Top-Notch-data a{
+    font-family: "Roboto";
+    font-size: 1rem;
+    text-decoration: none;
+    color: #00C471;
+    font-weight: 400;
+}
+.Top-Notch-data h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: "Roboto";
+}
+/* Table Start */
+.table-top-notch{
+    width: 100%;
+    margin: 20px 0;
+}
+.table-top-notch tbody tr{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+}
+.table-top-notch tbody tr td{
+    width: 50% !important;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #37352F;
+    padding: 5px 0;
+    font-size: 1rem;
+}
+
+.table-top-notch tbody tr:nth-child(2n) {
+    background: #00c4722b;
+}
+
+
+/* TOP NOTCH END */
+
+
+/* GOOGLE REVIEW START */
+/* <!-- Google Review Header Start --> */
+.Google-Review {
+    margin-bottom: 80px;
+}
+
+.Google-review-header h2 {
+    font-size: 2rem;
+    font-family: "Nunito";
+    font-weight: 700;
+    color: #343A40;
+}
+
+.Google-review-header p {
+    font-family: "Nunito";
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 15px;
+    position: relative;
+}
+
+.Google-review-header p::before {
+    content: "";
+    position: absolute;
+    height: 15px;
+    top: 4px;
+    left: -17px;
+    border-radius: 10px;
+    width: 15px;
+    background: #00CB58;
+}
+
+.Google-review-header-para {
+    margin-right: 60px;
+    font-size: 1rem;
+    font-family: "Nunito";
+    font-weight: 400;
+    color: #495057;
+
+}
+
+/* <!-- Google Review Header End */
+
+/* <!-- Google Review Center Start --> */
+.Google-Review .container:nth-child(2) {
+    padding: 20px 25px;
+    background: #F6F6F8;
+    border-radius: 8px;
+
+}
+
+.google-review-rating-btn {
+    float: right;
+}
+
+.google-review-rating-btn a {
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #1B978E;
+    border-radius: 24px;
+    display: inline-block;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(28, 95, 95, 0.2);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+.google-review-rating-btn a:hover {
+    color: #1B978E;
+    background: #fff;
+    font-weight: 700;
+    transform: scale(0.8);
+    box-shadow: 0 8px 20px rgba(28, 95, 95, 0.2);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+/* <!-- Google Review Center End --> */
+
+
+/* <!-- Google Review Slider Start --> */
+.google-review-slider {
+    background: #F6F6F8;
+    border-radius: 8px;
+    padding: 25px 20px;
+
+    margin-top: 25px;
+
+}
+
+.google-review-slider-header img {
+    border-radius: 50px;
+}
+
+.google-review-slider-header h3 {
+    font-size: 1rem;
+    margin: 0 !important;
+    font-family: "inter";
+    font-weight: 600;
+    color: #111111;
+}
+
+.google-review-slider-header h3 i {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #592B62;
+}
+
+.google-review-slider-header p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #111111;
+    margin: 0 !important;
+    font-family: "inter";
+}
+
+.google-review-icons {
+    margin-top: 10px;
+}
+
+.google-review-icons i {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.google-review-slider p {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "inter";
+    margin-top: 10px;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding-right: 8px;
+}
+
+.google-review-slider-btn a {
+    color: #592B62;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: "inter";
+    font-weight: 400;
+}
+
+/* <!-- Google Review Slider End --> */
+/* GOOGLE REVIEW END */
+
+/* THESIS SECTION START */
+.Thesis {
+    background: url("../images/Thesis-bg.webp");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+/* <!-- Thesis Header Start --> */
+.Thesis-header {
+    color: #FFFFFF;
+    font-weight: "Nunito";
+}
+
+.Thesis-header h2 {
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.Thesis-header p {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 1rem;
+}
+
+/* <!-- Thesis Header End --> */
+
+/* <!-- Thesis Counter Start --> */
+.Thesis-Counter {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: "Nunito";
+    color: #FFFFFF;
+}
+
+.Thesis-Counter-Counting-data h3 {
+    font-weight: 400;
+    font-size: 2.6rem;
+}
+
+.Thesis-Counter-Counting-data p {
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+/* <!-- Thesis Counter End --> */
+/* THESIS SECTION END */
+
+
+/* FAQ SECTION START */
+.FAQ {
+    margin: 80px 0;
+}
+
+/* <!-- FAQ Header Start --> */
+.FAQ-header {
+    margin-bottom: 40px;
+}
+
+.FAQ-header h2 {
+    font-size: 2.4rem;
+    color: #19242F;
+    font-family: "Nunito";
+    font-weight: 700;
+}
+
+.FAQ-header p {
+    font-size: 1rem;
+    color: #3E464E;
+    font-family: "Nunito";
+    font-weight: 400;
+}
+
+/* <!-- FAQ Header End --> */
+
+/* < !-- FAQ Data Start --> */
+.FAQ-list {
+    border: none;
+    margin: 10px;
+    background: #FFFFFF;
+}
+
+.accordion-button {
+    border: 1px solid #D0D5E7 !important;
+    border-radius: 10px !important;
+}
+
+
+
+.FAQ-Data-main {
+
+    background: rgba(244, 244, 244, 0.2) !important;
+    border-radius: 12px !important;
+    border: 1px solid #F4F4F4;
+
+}
+
+
+/* < !-- FAQ Data End --> */
+
+/* FAQ SECTION END */
 
 /*/////////////////////////////////////////
 //////// Footer Section Start /////////////
@@ -742,12 +1252,15 @@ footer {
 .management-box {
     margin-right: 10px;
     margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+
 }
 
 .management-box {
     background: #25AFA5;
     padding: 20px;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
     box-shadow: 0 4px 12px rgba(31, 37, 37, 0.388);
 }
 
