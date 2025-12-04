@@ -2109,7 +2109,7 @@
     font-size: 2.6rem;
 }
 
-.price-hero .container {}
+/* .price-hero .container {} */
 
 .row:has(.calculate-form) {
     background: #F3F3F3;
