@@ -1,29 +1,31 @@
 @media (max-width: 1200px) {
-    .navbar-expand-lg .navbar-collapse {
-        display: none !important;
+    .nav-link {
+        font-size: 1rem !important;
     }
 
-    .navbar-expand-lg .navbar-toggler {
-        display: block !important;
-    }
-}
-
-@media (max-width: 1200px) {
-    .navbar-expand-lg .navbar-collapse.show {
-        display: block !important;
-    }
 }
 
 
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 991px) {
+    .nav-link {
+        font-size: 1.1rem !important;
+    }
+
+    .nav-list-main {
+        text-align: center;
+        margin-right: 0 !important;
+    }
 
     /* Hero Section Start */
     .get-btn {
-        margin-top: 15px;
+        text-align: center !important;
+        margin-top: 15px !important;
     }
 
+
     .hero-content {
-        margin: 110px 0;
+        margin: 110px 0 !important;
     }
 
     .hero-form {
@@ -31,6 +33,7 @@
     }
 
     /* Hero Section End */
+
 
     .trust-reviews-img {
         margin-top: 5px;
@@ -111,6 +114,13 @@
 
     /* Service Pages End */
 
+    /* BLOG PAGE START */
+    .blog-right-side {
+        display: none;
+    }
+
+    /* BLOG PAGE END */
+
     /* Footer Start*/
     .footer-bottom h4 {
         font-size: 1rem;
@@ -161,7 +171,7 @@
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     section {
         overflow: hidden;
     }
@@ -489,9 +499,13 @@
 
 
     /* Services page start */
+    .It-work-data-box, .It-work-data-common-box {
+        text-align: center;
+    }
+
     .It-work-data-box .It-work-data-btn a {
-    margin-left: 0px;
-}
+        margin-left: 0px;
+    }
 
     .It-work-bottom-box .row {
         text-align: center;
@@ -503,11 +517,15 @@
     .It-work-bottom-box i {
         margin-left: 0;
     }
-    .Top-Notch-data{
+
+    .Top-Notch-data {
         text-align: center;
     }
 
     /* Services page end */
+
+
+
 
 }
 
@@ -599,9 +617,10 @@
     .It-work-bottom-box-data h4 {
         font-size: 1rem;
     }
+
     .It-work-bottom-box-data p {
-    font-size: 0.8rem;
-}
+        font-size: 0.8rem;
+    }
 
     /* Service Page End*/
 

@@ -32,26 +32,21 @@
     color: #8C8C8C;
 }
 
-.get-btn {
+.get-btn a {
     width: 180px;
     padding: 15px 20px;
     background-color: #4ECDC4;
     color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
     border-radius: 30px;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+    font-family: "Nunito", sans-serif;
     box-shadow: 0 4px 15px rgba(78, 205, 196, 0.68);
 }
 
-.get-btn a {
-    text-decoration: none;
-    color: #021B1F;
-    font-size: 1rem;
-    font-weight: 700;
-    font-family: "Nunito", sans-serif;
-    transition: all 0.3s ease-in-out;
 
-}
 
 .get-btn a i {
     margin-left: 10px;
@@ -65,7 +60,7 @@
 
 }
 
-.get-btn:hover {
+.get-btn a:hover {
     background-color: #1A535C;
     color: #fff;
     box-shadow: 0 4px 15px rgba(26, 83, 92, 0.68);
@@ -73,7 +68,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.get-btn:hover a {
+.get-btn a:hover {
     color: #fff;
     transition: all 0.3s ease-in-out;
 }
@@ -1210,10 +1205,11 @@
 
 /* <!-- Google Review Slider Start --> */
 .swiper-slide {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
 .google-review-slider-wrapper {
     align-items: stretch;
     height: 100%;
@@ -1528,6 +1524,9 @@
 
 /* < !-- FAQ Data End --> */
 
+/* <!-- //////////////////////////////
+////////// FAQ Section End //////////
+//////////////////////////////////// --> */
 
 /* TOP RATE START */
 .top-rated {
@@ -1656,7 +1655,7 @@
     font-family: "Roboto";
     background: cover;
     object-fit: cover !important;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     padding: 50px 20px;
 }
 
@@ -1667,10 +1666,11 @@
     margin-bottom: 40px;
 }
 
-.It-work-data-box ,
-.It-work-data-common-box{
+.It-work-data-box,
+.It-work-data-common-box {
     cursor: pointer;
 }
+
 .It-work-data-box {
     padding: 26px 20px;
     background: #FFFFFF;
@@ -1679,27 +1679,30 @@
     transform: scale(1.1);
 }
 
-.It-work-data-common-box h3{
+.It-work-data-common-box h3 {
     font-family: "Roboto";
     font-size: 1.8rem;
     font-weight: 700;
     color: #fff;
     margin-top: 20px;
 }
+
 .It-work-data-box h3 {
     font-family: "Roboto";
     font-size: 1.8rem;
     font-weight: 700;
     color: #37352F;
 }
-.It-work-data-common-box p{
- font-family: "Roboto";
+
+.It-work-data-common-box p {
+    font-family: "Roboto";
     font-size: 1rem;
     font-weight: 400;
     color: #FFF;
     margin-top: 15px;
 }
-.It-work-data-common-box .It-work-data-btn{
+
+.It-work-data-common-box .It-work-data-btn {
     display: none;
 }
 
@@ -1900,16 +1903,18 @@
 
 
 /* TOP NOTCH START */
-.Top-Notch{
+.Top-Notch {
     margin: 80px 0;
 }
-.Top-Notch-data h4{
+
+.Top-Notch-data h4 {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 15px;
     font-family: "Roboto";
 }
-.Top-Notch-data p{
+
+.Top-Notch-data p {
     font-family: "Roboto";
     font-size: 1rem;
     color: #37352F;
@@ -1917,31 +1922,36 @@
     line-height: 21px;
     margin-bottom: 10px;
 }
-.Top-Notch-data a{
+
+.Top-Notch-data a {
     font-family: "Roboto";
     font-size: 1rem;
     text-decoration: none;
     color: #00C471;
     font-weight: 400;
 }
-.Top-Notch-data h3{
+
+.Top-Notch-data h3 {
     font-size: 1.6rem;
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 30px;
     font-family: "Roboto";
 }
+
 /* Table Start */
-.table-top-notch{
+.table-top-notch {
     width: 100%;
     margin: 20px 0;
 }
-.table-top-notch tbody tr{
+
+.table-top-notch tbody tr {
     width: 100% !important;
     display: flex;
     align-items: center;
 }
-.table-top-notch tbody tr td{
+
+.table-top-notch tbody tr td {
     width: 50% !important;
     font-family: "Roboto";
     font-weight: 400;
@@ -1958,12 +1968,289 @@
 /* TOP NOTCH END */
 
 
+/* BLOG HERO SECTION START */
+.Blog {
+    margin: 80px 0;
+}
+
+.row:has(.blog-hero-content) {
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center !important;
+}
+
+.blog-hero-content p {
+    max-width: none;
+    margin-bottom: 40px;
+}
+
+.blog-hero-content .hero-btns {
+    justify-content: center;
+}
+
+.Blog-box {
+    padding: 36px 24px;
+
+    background: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E6E6E6;
+}
+
+.Blog-box h3 {
+    color: #222222;
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: "inter";
+    margin-bottom: 15px;
+}
+
+.Blog-box span {
+    font-size: 1rem;
+    color: #333333;
+    font-weight: 400;
+    margin-right: 8px;
+}
+
+.Blog-box span i {
+    font-size: 1rem;
+    margin-right: 4px;
+}
+
+.Blog-box p {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #333333;
+    font-weight: 400;
+}
+
+.blog-img {
+    margin-top: 15px;
+}
+
+.blog-btn {
+    background: #22998F !important;
+    box-shadow: 0 4px 8px 0px rgb(129 145 145 / 48%) !important;
+}
+
+.blog-right-box {
+    background: #FFFFFF;
+    border: 1.14489px solid #E6E4E6;
+    padding: 20px 15px;
+}
+
+.blog-right-box-header {
+    background: #22998F;
+    color: #fff;
+    padding: 6px 8px;
+    margin: 0 !important;
+}
+
+.blog-right-box-header h3 {
+    margin: 0 !important;
+    font-size: 1.2rem;
+    font-family: "inter";
+}
+
+.blog-right-box-header h3 i {
+    margin-right: 10px;
+}
+
+.blog-right-box-para {
+    margin: 20px 0;
+}
+
+.blog-right-box-para p {
+    margin: 0;
+    font-family: "inter";
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+
+}
+
+.blog-right-box-list {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.blog-right-box-list li {
+    margin-bottom: 10px !important;
+
+}
+
+.blog-right-box-list li a {
+    font-family: "inter";
+    text-decoration: none;
+    color: #222222;
+    font-weight: 400;
+}
+
+.blog-google-review {
+    margin: 80px 0 !important;
+}
+
+/* BLOG HERO SECTION END */
 
 
-/* <!-- //////////////////////////////
-////////// FAQ Section End //////////
-//////////////////////////////////// --> */
 
+/* PRICE PAGE START */
+.price-hero {
+    background: url('/assets/images/price-hero-bg.webp');
+    background-size: cover;
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center;
+}
+
+.price-hero h2 {
+    font-family: "Nunito";
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 2.6rem;
+}
+
+.price-hero .container {}
+
+.row:has(.calculate-form) {
+    background: #F3F3F3;
+    box-shadow: 0px 0px 18.844px rgba(0, 0, 0, 0.24);
+    border-radius: 5.02507px;
+
+}
+
+/* Price Calculator Start */
+.calculate-form{
+padding: 0px 25px;
+padding-top: 60px;
+}
+.calculate-form label{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #2A2A2A;
+}
+.calculate-select{
+margin-bottom: 30px;
+padding: 8px 6px;
+font-weight: 400;
+color: #A1A1A1;
+}
+.calculate-form .form-select{
+border-radius: 0 !important;
+
+}
+
+.final-price {
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: -1.25627px 0px 7.53761px rgba(0, 0, 0, 0.16);
+    border-radius: 5.02507px;
+}
+
+.final-price h3 {
+    padding-top: 40px;
+    color: #2A2A2A;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.final-price s {
+    padding-top: 20px;
+    color: #616161;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.final-price-discount {
+    margin-top: 20px;
+}
+
+.final-price-discount span {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 10px 12px;
+    border-radius: 25px;
+    background: #FFCE39;
+}
+
+.final-price h2 {
+    font-size: 6rem;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #42A8A3;
+}
+
+.final-price h2 span {
+    margin-right: 16px;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #42A8A3;
+}
+
+.final-price p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Roboto";
+    background: #E2FFF2;
+    border: 1.25627px solid #D3ECE1;
+    border-radius: 5.02507px;
+    padding: 4px 0;
+    margin: 10px 20px;
+}
+
+.final-price-btn {
+    margin: 28px 0;
+}
+.final-price-btn a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 15px;
+    font-family: "Roboto";
+    border-radius: 28px;
+    background: #21555C;    
+}
+
+.final-price-footer{
+    /* display: block; */
+    padding-bottom: 1rem;
+}
+.final-price-footer span{
+    font-size: 1rem;
+    font-family: "Roboto";
+}
+.final-price-footer-free{
+    margin-left: 10px;
+}
+.final-price-footer span,
+.final-price-footer-free span{
+    color: #616161;
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: "Roboto";
+}
+.final-price-footer i{
+    color: #FFCE39;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+.final-price-footer-free span{
+    background: #33CC6F;
+    padding: 2px 4px;
+    color: #fff;
+    margin-right: 5px;
+}
+/* Price Calculator End */
+
+
+/* PRICE PAGE END */
 
 /*/////////////////////////////////////////
 //////// Footer Section Start /////////////
@@ -2324,30 +2611,3 @@ footer {
 /*/////////////////////////////////////////
 //////// Footer Section End /////////////
 /////////////////////////////////////////*/
-
-
-
-
-.webkit {
-    display: -webkit-box;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -webkit-box-orient: vertical;
-    word-break: break-word;
-}
-
-.webkit_1 {
-    -webkit-line-clamp: 1;
-}
-
-.webkit_2 {
-    -webkit-line-clamp: 2;
-}
-
-.webkit_3 {
-    -webkit-line-clamp: 3;
-}
-
-.webkit_4 {
-    -webkit-line-clamp: 4;
-}

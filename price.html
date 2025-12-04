@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-       <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" CONTENT="noindex,nofollow">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
@@ -11,21 +11,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
 
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/responsive.css">
-    <title>LOGO IPSUM Blog</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>LOGO IPSUM Pricing</title>
 </head>
 
 <body>
-
-    <!-- Header Section Start  -->
-
+    <!-- HEADER SECTION START -->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-main-target">
             <div class="container">
                 <a class="navbar-brand" href="/index.html"><img class="img-fluid"
-                        src="/assets/images/Logo RealEstate.svg" alt=""></a>
+                        src="./assets/images/Logo RealEstate.svg" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -34,7 +32,7 @@
                 <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav nav-list-main">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
@@ -50,7 +48,8 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="/services.html">Something else here</a></li>
+                                <li><a class="dropdown-item" href="/services.html">Something else here</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -60,252 +59,290 @@
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./Blog.html">Blog</a>
+                            <a class="nav-link" href="./assets/pages/Blog.html">Blog</a>
                         </li>
                     </ul>
-                    <!-- <div class="hero-btn-main"> -->
-                        <div class="get-btn">
-                            <a href="#"> Get Started <i class="ri-arrow-right-up-long-line"></i></a>
-                        </div>
-                    <!-- </div> -->
+                    <div class="get-btn">
+                        <a href="#"> Get Started <i class="ri-arrow-right-up-long-line"></i></a>
+                    </div>
+
                 </div>
             </div>
         </nav>
     </header>
-    <!-- Header Section End  -->
+    <!-- HEADER SECTION END  -->
 
-    <!-- HERO SECTION START -->
-    <section class="hero container-fluid">
+    <!-- PRICE HERO SECTION START -->
+    <section class="price-hero">
+        <div class="container">
+            <h2>Pricing</h2>
+            <!-- Calculate Box Start -->
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-12">
+                    <div class="calculate-form">
+                        <form action="#">
+                            <div>
+                                <label for="select-service">Select Service</label>
+                                <select class="calculate-select form-select" aria-label="Default select example">
+                                    <option selected>Select Services</option>
+                                    <option value="1">Assignment</option>
+                                    <option value="2">CourseWork</option>
+                                    <option value="3">Home Work</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="select-Subject">Select Subject</label>
+                                <select class="calculate-select form-select" aria-label="Default select example">
+                                    <option selected>Select Subjects</option>
+                                    <option value="1">Economics (theory)</option>
+                                    <option value="2">Human Resources</option>
+                                    <option value="3">Communication</option>
+                                </select>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <label for="select-Subject">Select Pages/Words</label>
+                                    <select class="calculate-select form-select" aria-label="Default select example">
+                                        <option selected>Select Subjects</option>
+                                        <option value="1">150 Pages / 250 Words</option>
+                                        <option value="2">2 Pages / 500 Words</option>
+                                        <option value="3">3 Pages / 750 Words</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <label for="select-Subject">Select Urgency</label>
+                                    <select class="calculate-select form-select" aria-label="Default select example">
+                                        <option selected>Select Urgency</option>
+                                        <option value="1">4 hours</option>
+                                        <option value="2">8 hours </option>
+                                        <option value="3">16 hours</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-12 p-0">
+                    <div class="final-price">
+                        <h3>Estimated Price</h3>
+                        <s>USD 6.47</s>
+                        <div class="final-price-discount">
+                            <span>25% OFF</span>
+                        </div>
+                        <h2><span>USD</span>6.15</h2>
+                        <p>Best Assignment Help at Competitive Price</p>
+                        <div class="final-price-btn">
+                            <a href="#">Order Now</a>
+                        </div>
+                        <hr>
+                        <div class="final-price-footer">
+                            <i class="ri-git-repository-private-fill"></i>
+                            <span>Safe & Trusted</span>
+
+                            <span class="final-price-footer-free">
+                                <span>FREE</span>
+                                Plagiarism report</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Calculate Box End -->
+        </div>
+    </section>
+    <!-- PRICE HERO SECTION END -->
+
+    <!-- PROFESSIONAL WRITER SECTION START -->
+    <section class="professional-writer">
         <div class="container">
             <div class="row align-items-center ">
-                <div class="blog-hero-content hero-content col-lg-7 col-md-12">
-                    <h1>Blogs</h1>
-                    <p>Researchers To Achieve Scopus Indexed Success!</p>
-                    <div class="hero-btns d-flex gap-3">
-                        <div class="secondary-btn ">
-                            <a href="#"> Get Started <i class="ri-arrow-right-up-long-line"></i></a>
-                        </div>
-                        <div class="common-btn">
-                            <a href="#"> Learn More</a>
+                <!-- SLider Start -->
+                <div class="professional-slider col-lg-5 col-md-5 col-sm-12">
+                    <div class="swiper myWriterSwiper">
+                        <div class="swiper-wrapper">
+
+                            <!-- ==== Slide 1 ==== -->
+                            <div class="swiper-slide">
+                                <div class="professional-slider-box">
+                                    <div class="row professional-slider-heading ">
+                                        <div class="professional-slider-image col-4">
+                                            <img class="img-fluid w-100"
+                                                src="./assets/images/professional-slider-img-1.webp" alt="">
+                                        </div>
+                                        <div class="professional-slider-heading-data col-8">
+                                            <h3>Carol S.</h3>
+                                            <p>4.5
+                                                <span>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="complete-order">
+                                            <p>Completed Orders: <span>1931</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="professional-slider-skills ">
+                                        <li class="">English</li>
+                                        <li class="">Buniness</li>
+                                        <li class="">Law</li>
+                                        <li class="">Health</li>
+                                    </div>
+                                    <div class="professional-slider-btn">
+                                        <a href="#">Hire Writer</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ==== Slide 2 ==== -->
+                            <div class="swiper-slide">
+                                <div class="professional-slider-box">
+                                    <div class="row professional-slider-heading ">
+                                        <div class="professional-slider-image col-4">
+                                            <img class="img-fluid w-100"
+                                                src="./assets/images/professional-slider-img-1.webp" alt="">
+                                        </div>
+                                        <div class="professional-slider-heading-data col-8">
+                                            <h3>Carol S.</h3>
+                                            <p>4.5
+                                                <span>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="complete-order">
+                                            <p>Completed Orders: <span>1931</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="professional-slider-skills ">
+                                        <li class="">English</li>
+                                        <li class="">Buniness</li>
+                                        <li class="">Law</li>
+                                        <li class="">Health</li>
+                                    </div>
+                                    <div class="professional-slider-btn">
+                                        <a href="#">Hire Writer</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ==== Slide 3 ==== -->
+                            <div class="swiper-slide">
+                                <div class="professional-slider-box">
+                                    <div class="row professional-slider-heading ">
+                                        <div class="professional-slider-image col-4">
+                                            <img class="img-fluid w-100"
+                                                src="./assets/images/professional-slider-img-1.webp" alt="">
+                                        </div>
+                                        <div class="professional-slider-heading-data col-8">
+                                            <h3>Carol S.</h3>
+                                            <p>4.5
+                                                <span>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="complete-order">
+                                            <p>Completed Orders: <span>1931</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="professional-slider-skills ">
+                                        <li class="">English</li>
+                                        <li class="">Buniness</li>
+                                        <li class="">Law</li>
+                                        <li class="">Health</li>
+                                    </div>
+                                    <div class="professional-slider-btn">
+                                        <a href="#">Hire Writer</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ==== Slide 4 ==== -->
+                            <div class="swiper-slide">
+                                <div class="professional-slider-box">
+                                    <div class="row professional-slider-heading ">
+                                        <div class="professional-slider-image col-4">
+                                            <img class="img-fluid w-100"
+                                                src="./assets/images/professional-slider-img-1.webp" alt="">
+                                        </div>
+                                        <div class="professional-slider-heading-data col-8">
+                                            <h3>Carol S.</h3>
+                                            <p>4.5
+                                                <span>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-fill"></i>
+                                                    <i class="ri-star-half-fill"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="complete-order">
+                                            <p>Completed Orders: <span>1931</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="professional-slider-skills ">
+                                        <li class="">English</li>
+                                        <li class="">Buniness</li>
+                                        <li class="">Law</li>
+                                        <li class="">Health</li>
+                                    </div>
+                                    <div class="professional-slider-btn">
+                                        <a href="#">Hire Writer</a>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
+                <!-- SLider End -->
 
-            </div>
-        </div>
-    </section>
-    <!-- HERO SECTION END -->
+                <div class="professional-writer-data col-lg-7 col-md-7 col-sm-12">
+                    <h2>Your Go-To Place for Assignment Writing Service UK</h2>
+                    <p>Uni Assignment Master supports students across the UK who feel stretched thin between lectures,
+                        work shifts, and personal life. Our assignment writers hold strong academic backgrounds and help
+                        you shape assignments that feel clear and well-structured. We keep things simple, so you always
+                        know you're in capable hands.</p>
+                    <div class="row professional-writer-review-box">
+                        <!-- <div class="row"> -->
+                        <div
+                            class="professional-writer-review col-lg-6 col-md-6 col-sm-6  col-12 d-flex align-items-center gap-3">
+                            <i class="ri-verified-badge-fill"></i>
+                            <div class="professional-writer-review-text">
+                                <p>Writers experience</p>
+                                <h3>4+ years</h3>
+                            </div>
+                        </div>
+                        <div
+                            class="professional-writer-review col-lg-6 col-md-6 col-sm-6  col-12 d-flex align-items-center gap-3">
+                            <i class="ri-star-smile-fill"></i>
+                            <div class="professional-writer-review-text">
+                                <p>Success rate</p>
+                                <h3>97%</h3>
+                            </div>
+                        </div>
 
-    <!-- BLOG SECTION START -->
-    <section class="Blog">
-        <div class="container">
-            <div class="row">
-                <!-- Blog Box start -->
-                <div class="col-12 col-md-12 col-lg-8 ">
-                    <!-- Blog Box 1 -->
-                    <div class="Blog-box">
-                        <h3>Top 10 Things to Know Before Hiring English
-                            Assignment Help UK</h3>
-                        <span><i class="ri-calendar-todo-fill"></i>November 12th, 2025</span>
-                        <span><i class="ri-user-fill"></i>Jack</span>
-                        <span><i class="ri-folder-6-fill"></i>Assignment Writing Tips</span>
-                        <span><i class="ri-question-answer-fill"></i>No Comments</span>
-                        <div class="blog-img img-fluid">
-                            <img class="w-100" src="/assets/images/blog1.webp" alt="">
-                        </div>
-                        <p>English assignments are a part of the academic journey, yet they are often the most
-                            challenging for
-                            those whose first language is not English. To resolve this issue, various students need
-                            professional
-                            assistance during the writing process. The best writing services are available around the
-                            clock to
-                            assist you in such situations. Choosing the best…</p>
-                        <div class="blog-btn learning-management-btn">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Blog Box 2 -->
-                    <div class="Blog-box">
-                        <h3>How to Write a College Assignment That Stands Out</h3>
-                        <span><i class="ri-calendar-todo-fill"></i>November 12th, 2025</span>
-                        <span><i class="ri-user-fill"></i>Elis</span>
-                        <span><i class="ri-folder-6-fill"></i>Assignment Writing Tips</span>
-                        <span><i class="ri-question-answer-fill"></i>No Comments</span>
-                        <div class="blog-img img-fluid">
-                            <img class="w-100" src="/assets/images/blog2.webp" alt="">
-                        </div>
-                        <p>Let’s be honest. Writing a college assignment is not easy. You sit down with your laptop. The
-                            screen is blank. The ideas are somewhere in your head, but they just don’t come out. You
-                            type one line. Then you delete it. You check your phone. Maybe a quick scroll will help? And
-                            before you realise,…</p>
-                        <div class="blog-btn learning-management-btn">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Blog Box 3 -->
-                    <div class="Blog-box">
-                        <h3>Tips And Tricks To Write Great English Assignments</h3>
-                        <span><i class="ri-calendar-todo-fill"></i>November 12th, 2025</span>
-                        <span><i class="ri-user-fill"></i>Mss</span>
-                        <span><i class="ri-folder-6-fill"></i>Assignment Writing Tips</span>
-                        <span><i class="ri-question-answer-fill"></i>No Comments</span>
-                        <div class="blog-img img-fluid">
-                            <img class="w-100" src="/assets/images/blog3.webp" alt="">
-                        </div>
-                        <p>Ever stared at a blank page, wondering how to start your English assignment? You are not
-                            alone. Writing a great piece requires good grammar, clear expression of your thoughts,
-                            effective structuring of your ideas, and making your words flow naturally. As they say,
-                            writing is easy. You just sit at a typewriter and bleed. Think…</p>
-                        <div class="blog-btn learning-management-btn">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Blog Box 4 -->
-                    <div class="Blog-box">
-                        <h3>The Present and Future of AI in Education</h3>
-                        <span><i class="ri-calendar-todo-fill"></i>November 12th, 2025</span>
-                        <span><i class="ri-user-fill"></i>Mss</span>
-                        <span><i class="ri-folder-6-fill"></i>Assignment Writing Tips</span>
-                        <span><i class="ri-question-answer-fill"></i>No Comments</span>
-                        <div class="blog-img img-fluid">
-                            <img class="w-100" src="/assets/images/blog4.webp" alt="">
-                        </div>
-                        <p>Think of a time when you are walking into a classroom where lessons adapt to how you learn.
-                            The computer knows when you’re confused. It slows down, explains the concept again, and even
-                            provides small games to help you understand better. That’s no longer science fiction, but
-                            that’s what AI is doing in education today.…</p>
-                        <div class="blog-btn learning-management-btn">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Blog Box 5 -->
-                    <div class="Blog-box">
-                        <h3>Fresh Education Research Topics For UK University Students In 2025</h3>
-                        <span><i class="ri-calendar-todo-fill"></i>November 12th, 2025</span>
-                        <span><i class="ri-user-fill"></i>Mss</span>
-                        <span><i class="ri-folder-6-fill"></i>Assignment Writing Tips</span>
-                        <span><i class="ri-question-answer-fill"></i>No Comments</span>
-                        <div class="blog-img img-fluid">
-                            <img class="w-100" src="/assets/images/blog5.webp" alt="">
-                        </div>
-                        <p>Imagine you are in the library, scrolling through endless research topics, and nothing feels
-                            fresh. The ideas seem recycled, outdated, or too vague to spark your interest. Sound
-                            familiar? You are not alone. Every student hits that wall at some point. The truth is that
-                            education as a field is changing rapidly. From AI in…</p>
-                        <div class="blog-btn learning-management-btn">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Blog Box 6 -->
-                    <div class="Blog-box">
-                        <h3>The Future of AI and Data Science: Trends, Challenges, and Opportunities</h3>
-                        <span><i class="ri-calendar-todo-fill"></i>November 12th, 2025</span>
-                        <span><i class="ri-user-fill"></i>Mss</span>
-                        <span><i class="ri-folder-6-fill"></i>Assignment Writing Tips</span>
-                        <span><i class="ri-question-answer-fill"></i>No Comments</span>
-                        <div class="blog-img img-fluid">
-                            <img class="w-100" src="/assets/images/blog6.webp" alt="">
-                        </div>
-                        <p>The world is changing faster than ever, and at the heart of this transformation lies
-                            artificial intelligence and data science. From personalized recommendations on your favorite
-                            shopping app to self-driving cars, AI and data are no longer just trending words. They are
-                            shaping the way we live, work, and connect. What once seemed like science…</p>
-                        <div class="blog-btn learning-management-btn">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Blog Box 7 -->
-                    <div class="Blog-box">
-                        <h3>Fresh Education Research Topics For UK University Students In 2025</h3>
-                        <span><i class="ri-calendar-todo-fill"></i>November 12th, 2025</span>
-                        <span><i class="ri-user-fill"></i>Mss</span>
-                        <span><i class="ri-folder-6-fill"></i>Assignment Writing Tips</span>
-                        <span><i class="ri-question-answer-fill"></i>No Comments</span>
-                        <div class="blog-img img-fluid">
-                            <img class="w-100" src="/assets/images/blog7.webp" alt="">
-                        </div>
-                        <p>Imagine you are in the library, scrolling through endless research topics, and nothing feels
-                            fresh. The ideas seem recycled, outdated, or too vague to spark your interest. Sound
-                            familiar? You are not alone. Every student hits that wall at some point. The truth is that
-                            education as a field is changing rapidly. From AI in…</p>
-                        <div class="blog-btn learning-management-btn">
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Blog Box 8 -->
-                    <div class="Blog-box">
-                        <h3>The Future of AI and Data Science: Trends, Challenges, and Opportunities</h3>
-                        <span><i class="ri-calendar-todo-fill"></i>November 12th, 2025</span>
-                        <span><i class="ri-user-fill"></i>Mss</span>
-                        <span><i class="ri-folder-6-fill"></i>Assignment Writing Tips</span>
-                        <span><i class="ri-question-answer-fill"></i>No Comments</span>
-                        <div class="blog-img img-fluid">
-                            <img class="w-100" src="/assets/images/blog1.webp" alt="">
-                        </div>
-                        <p>The world is changing faster than ever, and at the heart of this transformation lies
-                            artificial intelligence and data science. From personalized recommendations on your favorite
-                            shopping app to self-driving cars, AI and data are no longer just trending words. They are
-                            shaping the way we live, work, and connect. What once seemed like science…</p>
-                        <div class="blog-btn learning-management-btn">
-                            <a href="#">Read More</a>
-                        </div>
+
+                        <!-- </div> -->
                     </div>
                 </div>
-                <!-- Blog Box End -->
-
-                <!-- Blog Right Side Start -->
-                <div class="col-4">
-                    <div class="blog-right-side sticky-top">
-                        <div class="blog-right-box">
-                            <div class="blog-right-box-header">
-                                <h3><i class="ri-file-download-fill"></i>Recent Posts</h3>
-                            </div>
-                            <div class="blog-right-box-para">
-                                <p>Top 10 Things to Know Before Hiring English Assignment Help UK.</p>
-                                <p>How to Write a College Assignment That Stands Out.</p>
-                                <p>Tips And Tricks To Write Great English Assignments.</p>
-                                <p>The Present and Future of AI in Education.</p>
-                                <p>Fresh Education Research Topics For UK University Students In 2025.</p>
-                            </div>
-                        </div>
-                        <div class="blog-right-box">
-                            <div class="blog-right-box-header">
-                                <h3><i class="ri-folder-6-fill"></i>Categories</h3>
-                            </div>
-                            <div class="blog-right-box-list">
-                                <li><a href="#">Assignment Writing Tips</a></li>
-                                <li><a href="#">education</a></li>
-                                <li><a href="#">essay tips</a></li>
-                                <li><a href="#">examples</a></li>
-                                <li><a href="#">General Tips</a></li>
-                                <li><a href="#">quality assignments</a></li>
-                                <li><a href="#">Student</a></li>
-                                <li><a href="#">Uncategorized</a></li>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Right Side End -->
-
             </div>
-        </div>
     </section>
-    <!-- BLOG SECTION END -->
+    <!-- PROFESSIONAL WRITER SECTION END -->
 
-    <!-- Trusth Reviews Section Start -->
-    <section class="trust-reviews">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <img class="img-fluid trust-reviews-img " src="/assets/images/review1.webp" alt="">
-                <img class="img-fluid trust-reviews-img " src="/assets/images/review2.webp" alt="">
-                <img class="img-fluid trust-reviews-img " src="/assets/images/review3.webp" alt="">
-            </div>
-        </div>
-    </section>
-    <!-- Trusth Reviews Section End -->
 
-    <!-- GOOGLE REVIEW START -->
-    <section class="Google-Review blog-google-review">
+    <!-- GOOGLE REVIEW SECTION START -->
+    <section class="Google-Review">
         <!-- Google Review Header Start -->
         <div class="container">
             <div class="row align-items-center">
@@ -328,7 +365,7 @@
         <div class="container">
             <div class="row Google-review-rating align-items-center justify-content-between">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <img class="img-fluid" src="/assets/images/google-review.png" alt="">
+                    <img class="img-fluid" src="./assets/images/google-review.png" alt="">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="google-review-rating-btn">
@@ -351,7 +388,7 @@
                                 <div class="google-review-slider-header">
                                     <div class="row align-items-center">
                                         <div class="col-3">
-                                            <img class="img-fluid" src="/assets/images/slider-boy.webp" alt="">
+                                            <img class="img-fluid" src="./assets/images/slider-boy.webp" alt="">
                                         </div>
                                         <div class="col-9">
                                             <div class="google-review-slider-data">
@@ -384,7 +421,7 @@
                                 <div class="google-review-slider-header">
                                     <div class="row align-items-center">
                                         <div class="col-3">
-                                            <img class="img-fluid" src="/assets/images/slider-boy.webp" alt="">
+                                            <img class="img-fluid" src="./assets/images/slider-boy.webp" alt="">
                                         </div>
                                         <div class="col-9">
                                             <div class="google-review-slider-data">
@@ -417,7 +454,7 @@
                                 <div class="google-review-slider-header">
                                     <div class="row align-items-center">
                                         <div class="col-3">
-                                            <img class="img-fluid" src="/assets/images/slider-boy.webp" alt="">
+                                            <img class="img-fluid" src="./assets/images/slider-boy.webp" alt="">
                                         </div>
                                         <div class="col-9">
                                             <div class="google-review-slider-data">
@@ -450,7 +487,7 @@
                                 <div class="google-review-slider-header">
                                     <div class="row align-items-center">
                                         <div class="col-3">
-                                            <img class="img-fluid" src="/assets/images/slider-boy.webp" alt="">
+                                            <img class="img-fluid" src="./assets/images/slider-boy.webp" alt="">
                                         </div>
                                         <div class="col-9">
                                             <div class="google-review-slider-data">
@@ -483,7 +520,7 @@
                                 <div class="google-review-slider-header">
                                     <div class="row align-items-center">
                                         <div class="col-3">
-                                            <img class="img-fluid" src="/assets/images/slider-boy.webp" alt="">
+                                            <img class="img-fluid" src="./assets/images/slider-boy.webp" alt="">
                                         </div>
                                         <div class="col-9">
                                             <div class="google-review-slider-data">
@@ -515,7 +552,7 @@
                                 <div class="google-review-slider-header">
                                     <div class="row align-items-center">
                                         <div class="col-3">
-                                            <img class="img-fluid" src="/assets/images/slider-boy.webp" alt="">
+                                            <img class="img-fluid" src="./assets/images/slider-boy.webp" alt="">
                                         </div>
                                         <div class="col-9">
                                             <div class="google-review-slider-data">
@@ -548,7 +585,7 @@
                                 <div class="google-review-slider-header">
                                     <div class="row align-items-center">
                                         <div class="col-3">
-                                            <img class="img-fluid" src="/assets/images/slider-boy.webp" alt="">
+                                            <img class="img-fluid" src="./assets/images/slider-boy.webp" alt="">
                                         </div>
                                         <div class="col-9">
                                             <div class="google-review-slider-data">
@@ -581,7 +618,7 @@
                                 <div class="google-review-slider-header">
                                     <div class="row align-items-center">
                                         <div class="col-3">
-                                            <img class="img-fluid" src="/assets/images/slider-boy.webp" alt="">
+                                            <img class="img-fluid" src="./assets/images/slider-boy.webp" alt="">
                                         </div>
                                         <div class="col-9">
                                             <div class="google-review-slider-data">
@@ -614,7 +651,7 @@
                                 <div class="google-review-slider-header">
                                     <div class="row align-items-center">
                                         <div class="col-3">
-                                            <img class="img-fluid" src="/assets/images/slider-boy.webp" alt="">
+                                            <img class="img-fluid" src="./assets/images/slider-boy.webp" alt="">
                                         </div>
                                         <div class="col-9">
                                             <div class="google-review-slider-data">
@@ -647,7 +684,7 @@
                                 <div class="google-review-slider-header">
                                     <div class="row align-items-center">
                                         <div class="col-3">
-                                            <img class="img-fluid" src="/assets/images/slider-boy.webp" alt="">
+                                            <img class="img-fluid" src="./assets/images/slider-boy.webp" alt="">
                                         </div>
                                         <div class="col-9">
                                             <div class="google-review-slider-data">
@@ -680,8 +717,8 @@
         </div>
         <!-- Google Review Slider End -->
     </section>
+    <!-- GOOGLE REVIEW SECTION END -->
 
-    <!-- GOOGLE REVIEW END -->
 
     <!-- THESIS SECTION START -->
     <section class="Thesis">
@@ -769,9 +806,8 @@
                             <div id="collapseOne" class="accordion-collapse  collapse show"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <spam class="webkit webkit_1"> We can complete work within the given timeframes.
-                                        Just share your deadline, and
-                                        we’ll match it.</spam>
+                                    We can complete work within the given timeframes. Just share your deadline, and
+                                    we’ll match it.
                                 </div>
                             </div>
                         </div>
@@ -861,13 +897,13 @@
     <!-- FAQ SECTION END -->
 
 
-    <!-- Footer Start -->
+    <!-- FOOTER START -->
     <footer class="footer-section">
         <div class="container footer-top px-2">
             <div class="row justify-content-between align-items-center">
                 <div class="row justify-content-between">
                     <div class="col-lg-2 col-md-3 col-sm-2 ">
-                        <img class="img-fluid " src="/assets/images/Logo RealEstate-white.svg" alt="">
+                        <img class="img-fluid " src="./assets/images/Logo RealEstate-white.svg" alt="">
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-10">
                         <p>Driven by a profound vision, our mission is to cultivate a
@@ -1005,11 +1041,11 @@
             </div>
         </div>
     </footer>
-    <!-- Footer End -->
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- FOOTER END -->
 
-    <script src="/assets/js/script.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
