@@ -13,6 +13,35 @@
 }
 
 /* Header Start */
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--primary-color);
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.dropdown-menu {
+
+    color: var(--primary-color);
+    text-decoration: none;
+    background-color: var(--second-primary-color);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.dropdown-item.active {
+    background-color: var(--second-primary-color);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.dropdown-item:hover {
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+    background: none;
+}
+
 .navbar-main-target {
     padding: 20px 0;
 }
@@ -242,22 +271,29 @@
     transition: all 0.3s ease-in-out;
 }
 
+
+.calculate-form .form-select:focus,
 .hero-form input:focus,
 .hero-form .form-select:focus,
 .hero-form .form-control:focus {
-    border: 1px solid #1A535C;
+    border: 1px solid #01b7d3;
     box-shadow: 0 0 5px #4ECDC4;
     transition: all 0.3s ease-in-out;
 }
 
-.hero-form .form-select option:hover {
-    background-color: #1A535C !important;
-    color: #fff;
+.form-select option {
+    background-color: var(--second-primary-color);
+    color: var(--primary-color) !important;
+    border: 0 !important;
+    outline: none !important;
 }
+
+
 
 .hero-form .form-btn {
     margin-top: 15px;
 }
+
 
 .hero-form .form-btn .btn-primary {
     background-color: transparent;
@@ -288,8 +324,7 @@
 //////////////////////////////////// */
 .trust-reviews {
     text-align: center;
-    box-shadow: 0px 3.3734px 6.74679px rgba(0, 0, 0, 0.16);
-
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.16);
 }
 
 .trust-reviews .container {
@@ -2095,49 +2130,48 @@
 
 
 /* PRICE PAGE START */
-.price-hero {
-    background: url('/assets/images/price-hero-bg.webp');
-    background-size: cover;
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center center;
-}
 
-.price-hero h2 {
+
+.calculator h2 {
     font-family: "Nunito";
     font-weight: 700;
-    margin-top: 20px;
+    padding-top: 20px;
     font-size: 2.6rem;
+    color: #fff;
 }
 
-/* .price-hero .container {} */
 
-.row:has(.calculate-form) {
+.form-main {
     background: #F3F3F3;
     box-shadow: 0px 0px 18.844px rgba(0, 0, 0, 0.24);
     border-radius: 5.02507px;
+    /* margin-bottom: -600px; */
 
 }
 
 /* Price Calculator Start */
-.calculate-form{
-padding: 0px 25px;
-padding-top: 60px;
+.calculate-form {
+    padding: 0px 25px;
+    padding-top: 60px;
 }
-.calculate-form label{
+
+.calculate-form label {
     margin-bottom: 10px;
     font-size: 1.1rem;
     font-family: "Roboto";
     font-weight: 400;
     color: #2A2A2A;
 }
-.calculate-select{
-margin-bottom: 30px;
-padding: 8px 6px;
-font-weight: 400;
-color: #A1A1A1;
+
+.calculate-select {
+    margin-bottom: 30px;
+    padding: 8px 6px;
+    font-weight: 400;
+    color: #A1A1A1;
 }
-.calculate-form .form-select{
-border-radius: 0 !important;
+
+.calculate-form .form-select {
+    border-radius: 0 !important;
 
 }
 
@@ -2207,7 +2241,8 @@ border-radius: 0 !important;
 .final-price-btn {
     margin: 28px 0;
 }
-.final-price-btn a{
+
+.final-price-btn a {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
@@ -2215,40 +2250,181 @@ border-radius: 0 !important;
     padding: 10px 15px;
     font-family: "Roboto";
     border-radius: 28px;
-    background: #21555C;    
+    background: #21555C;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgb(2 41 39 / 37%);
 }
 
-.final-price-footer{
+.final-price-btn a:hover {
+    color: #21555C;
+    background: #4ECDC4;
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(78, 205, 196, 0.68);
+}
+
+.final-price-footer {
     /* display: block; */
     padding-bottom: 1rem;
 }
-.final-price-footer span{
+
+.final-price-footer span {
     font-size: 1rem;
     font-family: "Roboto";
 }
-.final-price-footer-free{
+
+.final-price-footer-free {
     margin-left: 10px;
 }
+
 .final-price-footer span,
-.final-price-footer-free span{
+.final-price-footer-free span {
     color: #616161;
     font-weight: 300;
     font-size: 1rem;
     font-family: "Roboto";
 }
-.final-price-footer i{
+
+.final-price-footer i {
     color: #FFCE39;
     font-size: 1.2rem;
     margin-left: 5px;
 }
-.final-price-footer-free span{
+
+.final-price-footer-free span {
     background: #33CC6F;
     padding: 2px 4px;
     color: #fff;
     margin-right: 5px;
 }
-/* Price Calculator End */
 
+/* Price Calculator End */
+.free-services {
+    background: #F3FFFE;
+    margin: 80px 0;
+}
+
+.free-service-data {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+}
+
+.free-services-img {
+    margin-top: -100px;
+    margin-bottom: -76px;
+}
+
+.free-service-data hr {
+    margin: 0;
+}
+
+.free-service-top-data,
+.free-service-bottom,
+.free-service-list-main {
+    padding: 20px 15px;
+}
+
+.free-service-top-data p {
+    margin: 0 !important;
+
+}
+
+.free-service-top-data h3 {
+    font-family: "Roboto";
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: #1D1D1D;
+}
+
+.free-service-top-data p {
+    font-family: "Roboto";
+    font-size: 1rem;
+    color: #2A2A2A;
+    font-weight: 400;
+}
+
+.free-service-list-left-main,
+.free-service-list-right-main {}
+
+.free-service-list {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.free-service-list span {
+    color: #2A2A2A;
+    font-family: "Roboto";
+}
+
+.free-service-lable {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.free-service-price {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #33CC6F !important;
+}
+
+.free-service-price s {
+    color: #404040;
+    margin-right: 10px;
+
+}
+
+.free-service-bottom-data {
+    align-items: right;
+}
+
+.free-service-bottom p {
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: #2A2A2A;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-right: 6px;
+}
+
+.free-service-bottom span s {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    color: #616161;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-right: 10px;
+
+}
+
+.free-service-bottom span {
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    color: #33CC6F;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.free-service-bottom-btn a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #33CC6F;
+    text-align: left;
+    padding: 15px 20px;
+    border-radius: 35px;
+    transition: all 0.3s ease-in-out;
+}
+
+.free-service-bottom-btn a:hover {
+    color: #33CC6F;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(28, 95, 95, 0.2);
+    transition: all 0.3s ease-in-out;
+
+}
 
 /* PRICE PAGE END */
 

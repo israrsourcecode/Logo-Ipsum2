@@ -524,7 +524,55 @@
 
     /* Services page end */
 
+    /* PRICE PAGE START */
+    .free-services {
+        overflow: visible;
+    }
 
+    .free-service-lable {
+        font-size: 0.9rem;
+    }
+
+    .free-service-price {
+        font-size: 0.9rem;
+    }
+
+    .free-service-top-data {
+        text-align: center;
+    }
+
+    .free-service-top-data h3 {
+        font-size: 1.8rem;
+    }
+
+    .free-service-top-data p {
+        font-size: 0.9rem;
+    }
+
+    .free-service-bottom-data {
+        text-align: center !important;
+    }
+
+    .free-service-bottom span {
+        font-size: 1.4rem;
+    }
+
+    .free-service-bottom-btn a {
+        font-size: 1rem;
+    }
+
+    .free-service-bottom span s {
+        font-size: 1.3rem;
+    }
+
+ 
+    .free-service-bottom-btn {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        text-align: center !important;
+    }
+
+    /* PRICE PAGE END */
 
 
 }

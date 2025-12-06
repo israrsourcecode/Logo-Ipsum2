@@ -32,10 +32,10 @@
                 <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav nav-list-main">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="/about.html">About Us</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="/services.html" role="button"
@@ -53,7 +53,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/price.html">Pricing</a>
+                            <a class="nav-link active" href="/price.html">Pricing</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -73,76 +73,84 @@
     <!-- HEADER SECTION END  -->
 
     <!-- PRICE HERO SECTION START -->
-    <section class="price-hero">
+    <section class="hero price-hero">
         <div class="container">
-            <h2>Pricing</h2>
             <!-- Calculate Box Start -->
-            <div class="row">
-                <div class="col-lg-7 col-md-7 col-12">
-                    <div class="calculate-form">
-                        <form action="#">
-                            <div>
-                                <label for="select-service">Select Service</label>
-                                <select class="calculate-select form-select" aria-label="Default select example">
-                                    <option selected>Select Services</option>
-                                    <option value="1">Assignment</option>
-                                    <option value="2">CourseWork</option>
-                                    <option value="3">Home Work</option>
-                                </select>
+            <div class="calculator">
+                <h2>Pricing</h2>
+                <div class="form-main">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7 col-12">
+                            <div class="calculate-form">
+                                <form action="#">
+                                    <div>
+                                        <label for="select-service">Select Service</label>
+                                        <select id="service" class="calculate-select form-select"
+                                            aria-label="Default select example">
+                                            <option selected>Select Services</option>
+                                            <option value="1">Assignment</option>
+                                            <option value="2">CourseWork</option>
+                                            <option value="3">Home Work</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="select-Subject">Select Subject</label>
+                                        <select id="subject" class="calculate-select form-select"
+                                            aria-label="Default select example">
+                                            <option selected>Select Subjects</option>
+                                            <option value="1">Economics (theory)</option>
+                                            <option value="2">Human Resources</option>
+                                            <option value="3">Communication</option>
+                                        </select>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <label for="select-Subject">Select Pages/Words</label>
+                                            <select id="pages" class="calculate-select form-select"
+                                                aria-label="Default select example">
+                                                <option selected>Select Subjects</option>
+                                                <option value="1">150 Pages / 250 Words</option>
+                                                <option value="2">2 Pages / 500 Words</option>
+                                                <option value="3">3 Pages / 750 Words</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <label for="select-Subject">Select Urgency</label>
+                                            <select id="urgency" class="calculate-select form-select"
+                                                aria-label="Default select example">
+                                                <option selected>Select Urgency</option>
+                                                <option value="1">4 hours</option>
+                                                <option value="2">8 hours </option>
+                                                <option value="3">16 hours</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <div>
-                                <label for="select-Subject">Select Subject</label>
-                                <select class="calculate-select form-select" aria-label="Default select example">
-                                    <option selected>Select Subjects</option>
-                                    <option value="1">Economics (theory)</option>
-                                    <option value="2">Human Resources</option>
-                                    <option value="3">Communication</option>
-                                </select>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <label for="select-Subject">Select Pages/Words</label>
-                                    <select class="calculate-select form-select" aria-label="Default select example">
-                                        <option selected>Select Subjects</option>
-                                        <option value="1">150 Pages / 250 Words</option>
-                                        <option value="2">2 Pages / 500 Words</option>
-                                        <option value="3">3 Pages / 750 Words</option>
-                                    </select>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <label for="select-Subject">Select Urgency</label>
-                                    <select class="calculate-select form-select" aria-label="Default select example">
-                                        <option selected>Select Urgency</option>
-                                        <option value="1">4 hours</option>
-                                        <option value="2">8 hours </option>
-                                        <option value="3">16 hours</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-12 p-0">
-                    <div class="final-price">
-                        <h3>Estimated Price</h3>
-                        <s>USD 6.47</s>
-                        <div class="final-price-discount">
-                            <span>25% OFF</span>
                         </div>
-                        <h2><span>USD</span>6.15</h2>
-                        <p>Best Assignment Help at Competitive Price</p>
-                        <div class="final-price-btn">
-                            <a href="#">Order Now</a>
-                        </div>
-                        <hr>
-                        <div class="final-price-footer">
-                            <i class="ri-git-repository-private-fill"></i>
-                            <span>Safe & Trusted</span>
+                        <div class="col-lg-5 col-md-5 col-12 p-0">
+                            <div class="final-price">
+                                <h3>Estimated Price</h3>
+                                <s>USD 6.47</s>
+                                <div class="final-price-discount">
+                                    <span>25% OFF</span>
+                                </div>
+                                <h2><span>USD</span>6.15</h2>
+                                <p>Best Assignment Help at Competitive Price</p>
+                                <div class="final-price-btn">
+                                    <a href="#">Order Now</a>
+                                </div>
+                                <hr>
+                                <div class="final-price-footer">
+                                    <i class="ri-git-repository-private-fill"></i>
+                                    <span>Safe & Trusted</span>
 
-                            <span class="final-price-footer-free">
-                                <span>FREE</span>
-                                Plagiarism report</span>
+                                    <span class="final-price-footer-free">
+                                        <span>FREE</span>
+                                        Plagiarism report</span>
 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -151,6 +159,104 @@
         </div>
     </section>
     <!-- PRICE HERO SECTION END -->
+
+    <!-- Trusth Reviews Section Start -->
+    <section class="trust-reviews">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <img class="img-fluid trust-reviews-img " src="/assets/images/review1.webp" alt="">
+                <img class="img-fluid trust-reviews-img " src="/assets/images/review2.webp" alt="">
+                <img class="img-fluid trust-reviews-img " src="/assets/images/review3.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Trusth Reviews Section End -->
+
+
+    <!-- FREE SERVICES START -->
+    <section class="free-services">
+        <div class="container py-5">
+            <div class="row align-items-center justify-content-center">
+
+                <!-- FREE SERVICES IMAGE -->
+                <div class="col-12 col-md-12 col-lg-4 text-center">
+                    <div class="free-services-img">
+                        <img src="./assets/images/free-sevices-boy.webp" class="img-fluid" alt="Professional"
+                            style="max-height: 500px;">
+                    </div>
+                </div>
+
+                <!-- FREE SERVICES DATA BOX -->
+                <div class="col-12 col-md-12 col-lg-8">
+                    <div class="free-service-data">
+                        <div class="free-service-top-data">
+                            <h3>FREE Services</h3>
+                            <p>Avail our Writing Services and Take Home Amazing FREEBIES</p>
+                        </div>
+
+                        <hr>
+                        <div class="free-service-list-main">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="free-service-list-left-main">
+                                        <div class="free-service-list">
+                                            <span class="free-service-lable">Outline</span>
+                                            <span class="free-service-price"><s>USD 9.57</s> FREE</span>
+                                        </div>
+                                        <div class="free-service-list">
+                                            <span class="free-service-lable">Bibliography</span>
+                                            <span class="free-service-price"><s>USD 7.52</s> FREE</span>
+                                        </div>
+                                        <div class="free-service-list">
+                                            <span class="free-service-lable">Topic Selection</span>
+                                            <span class="free-service-price"><s>USD 7.52</s> FREE</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5 col-lg-6">
+                                    <div class="free-service-list-right-main">
+                                        <div class="free-service-list">
+                                            <span class="free-service-lable">Formatting</span>
+                                            <span class="free-service-price"><s>USD 8.2</s> FREE</span>
+                                        </div>
+                                        <div class="free-service-list">
+                                            <span class="free-service-lable">Unlimited Revisions</span>
+                                            <span class="free-service-price"><s>USD 21.18</s> FREE</span>
+                                        </div>
+                                        <div class="free-service-list">
+                                            <span class="free-service-lable">Proofreading</span>
+                                            <span class="free-service-price"><s>USD 28.7</s> FREE</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="free-service-bottom">
+                            <div class="row justify-content-center align-items-center ">
+                                <div class="col-12 col-md-5 col-lg-5">
+                                    <div class="free-service-bottom-data">
+                                        <p>Get All These Services for</p>
+                                        <span><s>USD 82.68</s>FREE</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5 col-lg-5">
+                                    <div class="free-service-bottom-btn">
+                                        <a href="#">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- FREE SERVICES START -->
+
+
+
 
     <!-- PROFESSIONAL WRITER SECTION START -->
     <section class="professional-writer">
